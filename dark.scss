@@ -1,0 +1,48 @@
+/*-- scss:defaults --*/
+/* Primary and Accent Colors */
+$primary: #54B689; // Fresh green used for primary elements
+$secondary: #4F4F4F; // Dark gray used for secondary text or less prominent elements
+
+/* Background Colors */
+$body-bg: #121820;
+$content-bg: #121820;
+$footer-bg: #121820;
+
+/* Text Colors */
+$body-color: #b8babd;
+$text-muted: #f3f3f4;
+
+/* Navbar Specific */
+$navbar-bg: #202a39;
+$navbar-fg: #bdc0c4;
+$navbar-hl: $primary;
+
+/* Link and Button Colors */
+$link-color: $primary;
+
+/* Custom styles for headings and other UI elements */
+h1, h2, h3, h4, h5, h6 {
+  color: #f3f3f4;
+}
+
+.card {
+  background: #171e28 !important;
+}
+
+.interest:hover {
+  transform: scale(1.05); /* Slight scale to highlight on hover */
+  background-color: #171e28; /* Light background on hover to enhance focus */
+}
+
+.navbar-title, .quarto-title h1 {
+  color: $primary;
+}
+
+.navbar-brand > img {
+  width: 0px;
+  height: 0px;
+  padding: 12px 12px;
+  background: url("images/favicon/apple-touch-icon2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

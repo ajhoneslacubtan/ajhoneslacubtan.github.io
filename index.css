@@ -1,0 +1,40 @@
+h2 {
+  padding-top: 2rem;
+}
+
+.interest h4 {
+  margin: 1rem;
+}
+
+.interest {
+  text-align: center; /* Ensure text is centered under icons */
+  padding: 2rem; /* Add padding for better spacing */
+  transition: transform 0.3s ease-in-out; /* Smooth transform effect on hover */
+}
+
+#contact p {
+  font-size: 1.2rem;
+  padding: 3rem 4rem;
+}
+
+@media (min-width: 770px) {
+  .quarto-about-trestles {
+  height: 80vh;
+  }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 576px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .g-col-6, .g-col-md-4 {
+    flex: 1 0 100%; /* Make each grid item take full width */
+  }
+  
+  .interest {
+    padding: 1rem; /* Adjust padding for smaller viewports */
+  }
+}

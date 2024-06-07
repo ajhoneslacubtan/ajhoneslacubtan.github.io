@@ -1,0 +1,140 @@
+---
+title: "AJ Jhones Lacubtan"
+format:
+  html:
+    page-layout: full
+    css: index.css
+listing:
+  - id: landing-posts
+    contents: posts
+    type: grid
+    max-items: 3
+    sort: 
+      - "date desc"
+      - "title asc"
+about:
+  id: hero-heading
+  template: trestles
+  image: images/profilepic.jpg
+  links:
+    - icon: medium
+      text: Medium
+      href: https://medium.com/@ajjhonessaromineslacubtan
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aj-jhones-lacubtan/
+    - icon: github
+      text: Github
+      href: https://github.com/ajhoneslacubtan
+---
+
+::: {#hero-heading}
+I thrive on turning complex data into clear insights. With a solid grounding in statistical modeling and machine learning, I specialize in advanced data analysis, predictive modeling, and data mining.
+
+With a robust background in research consulting, collaborative projects across various industries, and extensive educational engagements, I bring a wealth of knowledge and a unique perspective to the table. [Learn more about my journey and work](resume.qmd).
+
+#### Education
+
+**Mindanao State University - Iligan Institute of Technology**\
+*MS Statistics* \| August 2023 - Present
+
+**Mindanao State University - Iligan Institute of Technology**\
+*BS Statistics, Magna Cum Laude* \| August 2019 - July 2023
+:::
+
+::: text-center
+## AREAS OF INTEREST
+
+::: grid
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-graph-up" style="font-size: 2rem;"></i>
+
+#### Statistical Analysis
+
+Specializing in advanced statistical techniques and data interpretation.
+:::
+
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-cpu" style="font-size: 2rem;"></i>
+
+#### Machine Learning
+
+Developing and implementing intelligent algorithms and models.
+:::
+
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-clock-history" style="font-size: 2rem;"></i>
+
+#### Spatiotemporal Analysis
+
+Analyzing data across time and space for predictive insights.
+:::
+
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-gear" style="font-size: 2rem;"></i>
+
+#### Data Automation
+
+Streamlining data processes for efficiency and accuracy.
+:::
+
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-chat-dots" style="font-size: 2rem;"></i>
+
+#### NLP
+
+Extracting insights from text data for enhanced understanding.
+:::
+
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-bar-chart" style="font-size: 2rem;"></i>
+
+#### Data Visualization
+
+Creating compelling visual representations of data to uncover insights.
+:::
+:::
+:::
+
+::: text-center
+## PROJECTS
+:::
+
+::: {#landing-posts}
+:::
+
+::: text-center
+## SERVICES
+
+*Let me help you make better use of your data.*
+
+::: grid
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-bar-chart-line" style="font-size: 3rem;"></i>
+
+#### Data Analysis and Statistical Consulting
+
+Offering comprehensive data analysis and statistical consulting to help you make data-driven decisions.
+:::
+
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-cpu" style="font-size: 3rem;"></i>
+
+#### Machine Learning and Predictive Modeling
+
+Developing custom machine learning models and predictive algorithms to forecast trends and optimize operations.
+:::
+
+::: {.g-col-6 .g-col-md-4 .interest}
+<i class="bi bi-graph-up" style="font-size: 3rem;"></i>
+
+#### Data Visualization and Reporting
+
+Creating interactive and insightful data visualizations and reports to clearly communicate findings.
+:::
+:::
+
+## CONTACT {#contact}
+
+I'd love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out. Send me an email at [ajlacubtan\@gmail.com](mailto:ajlacubtan@gmail.com) or message me at [LinkedIn](https://www.linkedin.com/in/aj-jhones-lacubtan/).
+:::
