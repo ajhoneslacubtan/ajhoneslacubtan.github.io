@@ -1,5 +1,5 @@
 ---
-title: "AJ Jhones Lacubtan"
+title: "Data Scientist & Statistician"
 format:
   html:
     page-layout: full
@@ -29,9 +29,11 @@ about:
 ---
 
 ::: {#hero-heading}
-I thrive on turning complex data into clear insights. With a solid grounding in statistical modeling and machine learning, I specialize in advanced data analysis, predictive modeling, and data mining.
+Hi there! I'm AJ Jhones Lacubtan 👋
 
-With a robust background in research consulting, collaborative projects across various industries, and extensive educational engagements, I bring a wealth of knowledge and a unique perspective to the table. [Learn more about my journey and work](resume.qmd).
+I enjoy turning complex data into clear, actionable insights. With a strong foundation in statistical modeling and machine learning, I specialize in advanced data analysis, predictive modeling, and data mining.
+
+With a solid background in research consulting and collaborative projects across various industries, I bring a wealth of knowledge and a unique perspective to each project. [Learn more about my journey and work](resume.qmd).
 
 #### Education
 
