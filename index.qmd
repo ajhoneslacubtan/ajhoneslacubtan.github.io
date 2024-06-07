@@ -3,7 +3,7 @@ title: "AJ Jhones Lacubtan"
 format:
   html:
     page-layout: full
-    css: index.css
+    css: css/index.css
 listing:
   - id: landing-posts
     contents: posts

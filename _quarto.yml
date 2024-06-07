@@ -39,9 +39,9 @@ website:
 format:
   html:
     theme:
-      light: [flatly, light.scss]
-      dark: [darkly, dark.scss]
-    css: styles.css
+      light: [flatly, css/light.scss]
+      dark: [darkly, css/dark.scss]
+    css: css/styles.css
     code-fold: show
 
 editor: visual
