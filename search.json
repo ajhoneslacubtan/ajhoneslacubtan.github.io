@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Optimizing Customer Retention with Machine Learning\n\n\n\n\n\n\nmachine learning\n\n\ncustomer retention\n\n\npredictive analytics\n\n\nchurn prediction\n\n\n\nThis project focuses on predicting customer churn scores to help businesses reduce churn and enhance customer retention using machine learning. The article details the process from data analysis and feature engineering to model deployment. \n\n\n\n\n\nJun 6, 2024\n\n\nAJ Jhones Lacubtan\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/churn-risk-rate/index.html",
+    "href": "posts/churn-risk-rate/index.html",
+    "title": "Optimizing Customer Retention with Machine Learning",
+    "section": "",
+    "text": "Customer retention is vital for business success, and high churn rates can significantly impact revenue. This project focuses on predicting customer churn scores to help an up-and-coming startup minimize churn and enhance customer loyalty."
+  },
+  {
+    "objectID": "posts/churn-risk-rate/index.html#problem-statement",
+    "href": "posts/churn-risk-rate/index.html#problem-statement",
+    "title": "Optimizing Customer Retention with Machine Learning",
+    "section": "Problem Statement",
+    "text": "Problem Statement\nCustomer churn refers to customers stopping their engagement with a company. To address this, we aim to build a Machine Learning model that predicts churn scores (ranging from 1 to 5) based on user demographics, browsing behavior, and purchase history. Accurate predictions will enable proactive retention strategies."
+  },
+  {
+    "objectID": "posts/churn-risk-rate/index.html#data-description",
+    "href": "posts/churn-risk-rate/index.html#data-description",
+    "title": "Optimizing Customer Retention with Machine Learning",
+    "section": "Data Description",
+    "text": "Data Description\nThe dataset includes:\n\nDemographics: Age, gender, location, etc.\nPII Details: Personally identifiable information.\nMembership Details: Type, duration, status.\nWebsite Visits: Frequency and duration.\nGrievances and Feedback: Complaints and feedback records.\n\nThis dataset is sourced from the HackerEarth Machine Learning Challenge: How NOT to lose a customer in 10 days."
+  },
+  {
+    "objectID": "posts/churn-risk-rate/index.html#objective",
+    "href": "posts/churn-risk-rate/index.html#objective",
+    "title": "Optimizing Customer Retention with Machine Learning",
+    "section": "Objective",
+    "text": "Objective\nOur goal is to analyze the data, build a predictive model for churn scores, and evaluate its performance to provide actionable insights for reducing customer churn."
+  },
+  {
+    "objectID": "posts/churn-risk-rate/index.html#machine-learning-workflow",
+    "href": "posts/churn-risk-rate/index.html#machine-learning-workflow",
+    "title": "Optimizing Customer Retention with Machine Learning",
+    "section": "Machine Learning Workflow",
+    "text": "Machine Learning Workflow\nWe will follow a structured workflow:\n\nData Retrieval\nData Processing & Wrangling\nFeature Extraction & Engineering\nFeature Scaling & Selection\nModeling\nModel Evaluation & Tuning\nDeployment & Monitoring\n\nThis iterative process ensures continuous improvement and model optimization.\n\n\n\n\n\nflowchart TD\n    A[Datasets] --&gt; B[Data Retrieval]\n    B --&gt; C[Data Processing & Wrangling]\n    C --&gt; D[Feature Extraction & Engineering]\n    D --&gt; E[Feature Scaling & Selection]\n    E --&gt; F[Modeling]\n    F --&gt; G[Model Evaluation & Tuning]\n    G --&gt; H[Deployment & Monitoring]\n    G --&gt;|Re-iterate for Improvement| C\n\n    classDef dataPrep fill:#f9f,stroke:#333,stroke-width:1.3px;\n    classDef process fill:#ffdddd,stroke:#333,stroke-width:1.3px;\n    classDef eval fill:#ddeeff,stroke:#333,stroke-width:1.3px;\n\n    class B dataPrep;\n    class C,D,E process;\n    class F,G eval;\n\n\n\n\n\n\nThis project is presented in three parts:\n\nEDA + Feature Engineering: Exploring and transforming data to create valuable features.\nModeling: Building, evaluating, and tuning machine learning models.\nDeployment: Creating an API and a dashboard for model deployment and monitoring.\n\nStay tuned as we dive into data analysis, model development, and deployment to effectively tackle customer churn."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AJ Jhones Lacubtan",
+    "section": "",
+    "text": "Medium\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI thrive on turning complex data into clear insights. With a solid grounding in statistical modeling and machine learning, I specialize in advanced data analysis, predictive modeling, and data mining.\nWith a robust background in research consulting, collaborative projects across various industries, and extensive educational engagements, I bring a wealth of knowledge and a unique perspective to the table. Learn more about my journey and work.\n\n\nMindanao State University - Iligan Institute of Technology\nMS Statistics | August 2023 - Present\nMindanao State University - Iligan Institute of Technology\nBS Statistics, Magna Cum Laude | August 2019 - July 2023"
+  },
+  {
+    "objectID": "index.html#areas-of-interest",
+    "href": "index.html#areas-of-interest",
+    "title": "AJ Jhones Lacubtan",
+    "section": "AREAS OF INTEREST",
+    "text": "AREAS OF INTEREST\n\n\n\n\nStatistical Analysis\nSpecializing in advanced statistical techniques and data interpretation.\n\n\n\n\n\nMachine Learning\nDeveloping and implementing intelligent algorithms and models.\n\n\n\n\n\nSpatiotemporal Analysis\nAnalyzing data across time and space for predictive insights.\n\n\n\n\n\nData Automation\nStreamlining data processes for efficiency and accuracy.\n\n\n\n\n\nNLP\nExtracting insights from text data for enhanced understanding.\n\n\n\n\n\nData Visualization\nCreating compelling visual representations of data to uncover insights."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "AJ Jhones Lacubtan",
+    "section": "PROJECTS",
+    "text": "PROJECTS"
+  },
+  {
+    "objectID": "index.html#services",
+    "href": "index.html#services",
+    "title": "AJ Jhones Lacubtan",
+    "section": "SERVICES",
+    "text": "SERVICES\nLet me help you make better use of your data.\n\n\n\n\nData Analysis and Statistical Consulting\nOffering comprehensive data analysis and statistical consulting to help you make data-driven decisions.\n\n\n\n\n\nMachine Learning and Predictive Modeling\nDeveloping custom machine learning models and predictive algorithms to forecast trends and optimize operations.\n\n\n\n\n\nData Visualization and Reporting\nCreating interactive and insightful data visualizations and reports to clearly communicate findings."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "AJ Jhones Lacubtan",
+    "section": "CONTACT",
+    "text": "CONTACT\nI’d love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out. Send me an email at ajlacubtan@gmail.com or message me at LinkedIn."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Mindanao State University - Iligan Institute of Technology\nMS Statistics\nCurrently exploring Bayesian statistics and spatiotemporal models with a focus on rainfall data analysis.\nMindanao State University - Iligan Institute of Technology\nBS Statistics, Magna Cum Laude\n\n\n\n\nFreelance Statistician\nSpecializations:\n\nConsulting for undergraduate research\nPLS-SEM (Partial Least Squares Structural Equation Modeling)\nCluster analysis\nExperimental designs\nSurvey operations\n\nInternship\nPremiere Research Institute of Science and Mathematics\nFocused on predictive analytics to improve university admissions.\n\n\n\n\nStatistical Analysis & Machine Learning:\n\nProficient in Python 🐍 & R\nExperience with scikit-learn, TensorFlow, and PyTorch\n\nDatabase Systems:\n- Hands-on experience with SQL (PostgreSQL) and NoSQL (MongoDB) databases\nWeb Scraping & Data Mining:\n- Skilled in Scrapy and Playwright for static and dynamic websites\nText Data Analysis:\n- Completed projects on sentiment analysis in Cebuano and Filipino languages using deep learning"
+  },
+  {
+    "objectID": "resume.html#aj-jhones-lacubtan",
+    "href": "resume.html#aj-jhones-lacubtan",
+    "title": "Resume",
+    "section": "",
+    "text": "Mindanao State University - Iligan Institute of Technology\nMS Statistics\nCurrently exploring Bayesian statistics and spatiotemporal models with a focus on rainfall data analysis.\nMindanao State University - Iligan Institute of Technology\nBS Statistics, Magna Cum Laude\n\n\n\n\nFreelance Statistician\nSpecializations:\n\nConsulting for undergraduate research\nPLS-SEM (Partial Least Squares Structural Equation Modeling)\nCluster analysis\nExperimental designs\nSurvey operations\n\nInternship\nPremiere Research Institute of Science and Mathematics\nFocused on predictive analytics to improve university admissions.\n\n\n\n\nStatistical Analysis & Machine Learning:\n\nProficient in Python 🐍 & R\nExperience with scikit-learn, TensorFlow, and PyTorch\n\nDatabase Systems:\n- Hands-on experience with SQL (PostgreSQL) and NoSQL (MongoDB) databases\nWeb Scraping & Data Mining:\n- Skilled in Scrapy and Playwright for static and dynamic websites\nText Data Analysis:\n- Completed projects on sentiment analysis in Cebuano and Filipino languages using deep learning"
+  }
+]
