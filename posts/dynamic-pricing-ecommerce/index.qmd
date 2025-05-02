@@ -10,4 +10,4 @@ image: "image.png"
 
 ![](image.png){fig-align="center"}
 
-A dashboard showing pricing recommendations and expected revenue lift.
+\[👷🏼TO BE UPDATED\]
