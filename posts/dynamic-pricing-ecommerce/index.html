@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="AJ Jhones Lacubtan">
+<meta name="dcterms.date" content="2024-06-06">
+<meta name="description" content="Maximize revenue by modeling price elasticity and recommending optimal product prices based on historical sales data.">
 
-<title>Data Scientist &amp; Statistician – AJ Lacubtan</title>
+<title>Dynamic Pricing Optimization for E-commerce Retail – AJ Lacubtan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,31 +26,30 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/favicon/favicon-32x32.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d7239639ee62e3f91e13c74e24e4d141.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-34b21eb7c987587391d788041845d39e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-d7239639ee62e3f91e13c74e24e4d141.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon/favicon-32x32.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d7239639ee62e3f91e13c74e24e4d141.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-34b21eb7c987587391d788041845d39e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d7239639ee62e3f91e13c74e24e4d141.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-landing-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-landing-posts'] = new List('listing-landing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-F04G2XSCY9"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -131,41 +104,11 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="../../css/styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -329,14 +272,14 @@ window.Quarto = {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/favicon/apple-touch-icon.svg" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/favicon/apple-touch-icon.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">AJ Lacubtan</span>
     </a>
   </div>
@@ -347,15 +290,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume.html"> 
+    <a class="nav-link" href="../../resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -384,171 +327,63 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Dynamic Pricing Optimization for E-commerce Retail</h1>
+                  <div>
+        <div class="description">
+          <p>Maximize revenue by modeling price elasticity and recommending optimal product prices based on historical sales data.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">machine learning</div>
+                <div class="quarto-category">revenue optimization</div>
+                <div class="quarto-category">predictive analytics</div>
+                <div class="quarto-category">retail pricing strategy</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>AJ Jhones Lacubtan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 6, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="images/profilepic.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Data Scientist &amp; Statistician</h1>
-</div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://medium.com/@ajjhonessaromineslacubtan" class="about-link" rel="" target="">
-    <i class="bi bi-medium"></i>
-     <span class="about-link-text">Medium</span>
-  </a>
-  <a href="https://www.linkedin.com/in/aj-jhones-lacubtan/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/ajhoneslacubtan" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>Hi there! I’m AJ Jhones Lacubtan 👋</p>
-<p>I enjoy turning complex data into clear, actionable insights. With a strong foundation in statistical modeling and machine learning, I specialize in advanced data analysis, predictive modeling, and data mining.</p>
-<p>With a solid background in research consulting and collaborative projects across various industries, I bring a wealth of knowledge and a unique perspective to each project. <a href="./resume.html">Learn more about my journey and work</a>.</p>
-<section id="education" class="level4">
-<h4 data-anchor-id="education">Education</h4>
-<p><strong>Mindanao State University - Iligan Institute of Technology</strong><br>
-<em>MS Statistics</em> | August 2023 - Present</p>
-<p><strong>Mindanao State University - Iligan Institute of Technology</strong><br>
-<em>BS Statistics, Magna Cum Laude</em> | August 2019 - July 2023</p>
-</section>
-</div></div>
-</div>
 
-<section id="areas-of-interest" class="level2 text-center">
-<h2 data-anchor-id="areas-of-interest">AREAS OF INTEREST</h2>
-<div class="grid">
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-graph-up" style="font-size: 2rem;"></i></p>
-<section id="statistical-analysis" class="level4">
-<h4 data-anchor-id="statistical-analysis">Statistical Analysis</h4>
-<p>Specializing in advanced statistical techniques and data interpretation.</p>
-</section>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
 </div>
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-cpu" style="font-size: 2rem;"></i></p>
-<section id="machine-learning" class="level4">
-<h4 data-anchor-id="machine-learning">Machine Learning</h4>
-<p>Developing and implementing intelligent algorithms and models.</p>
-</section>
-</div>
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-clock-history" style="font-size: 2rem;"></i></p>
-<section id="spatiotemporal-analysis" class="level4">
-<h4 data-anchor-id="spatiotemporal-analysis">Spatiotemporal Analysis</h4>
-<p>Analyzing data across time and space for predictive insights.</p>
-</section>
-</div>
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-gear" style="font-size: 2rem;"></i></p>
-<section id="data-automation" class="level4">
-<h4 data-anchor-id="data-automation">Data Automation</h4>
-<p>Streamlining data processes for efficiency and accuracy.</p>
-</section>
-</div>
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-chat-dots" style="font-size: 2rem;"></i></p>
-<section id="nlp" class="level4">
-<h4 data-anchor-id="nlp">NLP</h4>
-<p>Extracting insights from text data for enhanced understanding.</p>
-</section>
-</div>
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-bar-chart" style="font-size: 2rem;"></i></p>
-<section id="data-visualization" class="level4">
-<h4 data-anchor-id="data-visualization">Data Visualization</h4>
-<p>Creating compelling visual representations of data to uncover insights.</p>
-</section>
-</div>
-</div>
-</section>
-<section id="projects" class="level2 text-center">
-<h2 data-anchor-id="projects">PROJECTS</h2>
-</section>
-<div id="listing-landing-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDcmV2ZW51ZSUyMG9wdGltaXphdGlvbiUyQ3ByZWRpY3RpdmUlMjBhbmFseXRpY3MlMkNyZXRhaWwlMjBwcmljaW5nJTIwc3RyYXRlZ3k=" data-listing-date-sort="1717632000000" data-listing-file-modified-sort="1746211876767" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<a href="./posts/dynamic-pricing-ecommerce/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/dynamic-pricing-ecommerce/image.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Dynamic Pricing Optimization for E-commerce Retail
-</h5>
-<div class="card-text listing-description delink">
-<p>Maximize revenue by modeling price elasticity and recommending optimal product prices based on historical sales data.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-AJ Jhones Lacubtan
-</div>
-<div class="listing-date">
-Jun 6, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="text-center">
-<section id="services" class="level2">
-<h2 data-anchor-id="services">SERVICES</h2>
-<p><em>Let me help you make better use of your data.</em></p>
-<div class="grid">
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-bar-chart-line" style="font-size: 3rem;"></i></p>
-<section id="data-analysis-and-statistical-consulting" class="level4">
-<h4 data-anchor-id="data-analysis-and-statistical-consulting">Data Analysis and Statistical Consulting</h4>
-<p>Offering comprehensive data analysis and statistical consulting to help you make data-driven decisions.</p>
-</section>
-</div>
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-cpu" style="font-size: 3rem;"></i></p>
-<section id="machine-learning-and-predictive-modeling" class="level4">
-<h4 data-anchor-id="machine-learning-and-predictive-modeling">Machine Learning and Predictive Modeling</h4>
-<p>Developing custom machine learning models and predictive algorithms to forecast trends and optimize operations.</p>
-</section>
-</div>
-<div class="g-col-6 g-col-md-4 interest">
-<p><i class="bi bi-graph-up" style="font-size: 3rem;"></i></p>
-<section id="data-visualization-and-reporting" class="level4">
-<h4 data-anchor-id="data-visualization-and-reporting">Data Visualization and Reporting</h4>
-<p>Creating interactive and insightful data visualizations and reports to clearly communicate findings.</p>
-</section>
-</div>
-</div>
-</section>
-<section id="contact" class="level2">
-<h2 data-anchor-id="contact">CONTACT</h2>
-<p>I’d love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out. Send me an email at <a href="mailto:ajlacubtan@gmail.com">ajlacubtan@gmail.com</a> or message me at <a href="https://www.linkedin.com/in/aj-jhones-lacubtan/">LinkedIn</a>.</p>
-</section>
-</div>
-
-
+<p>A dashboard showing pricing recommendations and expected revenue lift.</p>
 
 
 
@@ -568,6 +403,13 @@ Jun 6, 2024
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

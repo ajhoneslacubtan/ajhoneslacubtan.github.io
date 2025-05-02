@@ -4,42 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Optimizing Customer Retention with Machine Learning\n\n\n\n\n\n\nmachine learning\n\n\ncustomer retention\n\n\npredictive analytics\n\n\nchurn prediction\n\n\n\nThis project focuses on predicting customer churn scores to help businesses reduce churn and enhance customer retention using machine learning. The article details the process from data analysis and feature engineering to model deployment. \n\n\n\n\n\nJun 6, 2024\n\n\nAJ Jhones Lacubtan\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/churn-risk-rate/index.html",
-    "href": "posts/churn-risk-rate/index.html",
-    "title": "Optimizing Customer Retention with Machine Learning",
-    "section": "",
-    "text": "Customer retention is vital for business success, and high churn rates can significantly impact revenue. This project focuses on predicting customer churn scores to help an up-and-coming startup minimize churn and enhance customer loyalty."
-  },
-  {
-    "objectID": "posts/churn-risk-rate/index.html#problem-statement",
-    "href": "posts/churn-risk-rate/index.html#problem-statement",
-    "title": "Optimizing Customer Retention with Machine Learning",
-    "section": "Problem Statement",
-    "text": "Problem Statement\nCustomer churn refers to customers stopping their engagement with a company. To address this, we aim to build a Machine Learning model that predicts churn scores (ranging from 1 to 5) based on user demographics, browsing behavior, and purchase history. Accurate predictions will enable proactive retention strategies."
-  },
-  {
-    "objectID": "posts/churn-risk-rate/index.html#data-description",
-    "href": "posts/churn-risk-rate/index.html#data-description",
-    "title": "Optimizing Customer Retention with Machine Learning",
-    "section": "Data Description",
-    "text": "Data Description\nThe dataset includes:\n\nDemographics: Age, gender, location, etc.\nPII Details: Personally identifiable information.\nMembership Details: Type, duration, status.\nWebsite Visits: Frequency and duration.\nGrievances and Feedback: Complaints and feedback records.\n\nThis dataset is sourced from the HackerEarth Machine Learning Challenge: How NOT to lose a customer in 10 days."
-  },
-  {
-    "objectID": "posts/churn-risk-rate/index.html#objective",
-    "href": "posts/churn-risk-rate/index.html#objective",
-    "title": "Optimizing Customer Retention with Machine Learning",
-    "section": "Objective",
-    "text": "Objective\nOur goal is to analyze the data, build a predictive model for churn scores, and evaluate its performance to provide actionable insights for reducing customer churn."
-  },
-  {
-    "objectID": "posts/churn-risk-rate/index.html#machine-learning-workflow",
-    "href": "posts/churn-risk-rate/index.html#machine-learning-workflow",
-    "title": "Optimizing Customer Retention with Machine Learning",
-    "section": "Machine Learning Workflow",
-    "text": "Machine Learning Workflow\nWe will follow a structured workflow:\n\nData Retrieval\nData Processing & Wrangling\nFeature Extraction & Engineering\nFeature Scaling & Selection\nModeling\nModel Evaluation & Tuning\nDeployment & Monitoring\n\nThis iterative process ensures continuous improvement and model optimization.\n\n\n\n\n\nflowchart TD\n    A[Datasets] --&gt; B[Data Retrieval]\n    B --&gt; C[Data Processing & Wrangling]\n    C --&gt; D[Feature Extraction & Engineering]\n    D --&gt; E[Feature Scaling & Selection]\n    E --&gt; F[Modeling]\n    F --&gt; G[Model Evaluation & Tuning]\n    G --&gt; H[Deployment & Monitoring]\n    G --&gt;|Re-iterate for Improvement| C\n\n    classDef dataPrep fill:#f9f,stroke:#333,stroke-width:1.3px;\n    classDef process fill:#ffdddd,stroke:#333,stroke-width:1.3px;\n    classDef eval fill:#ddeeff,stroke:#333,stroke-width:1.3px;\n\n    class B dataPrep;\n    class C,D,E process;\n    class F,G eval;\n\n\n\n\n\n\nThis project is presented in three parts:\n\nEDA + Feature Engineering: Exploring and transforming data to create valuable features.\nModeling: Building, evaluating, and tuning machine learning models.\nDeployment: Creating an API and a dashboard for model deployment and monitoring.\n\nStay tuned as we dive into data analysis, model development, and deployment to effectively tackle customer churn."
+    "text": "Dynamic Pricing Optimization for E-commerce Retail\n\n\n\nmachine learning\n\nrevenue optimization\n\npredictive analytics\n\nretail pricing strategy\n\n\n\nMaximize revenue by modeling price elasticity and recommending optimal product prices based on historical sales data.\n\n\n\n\n\nJun 6, 2024\n\n\nAJ Jhones Lacubtan\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -47,6 +12,41 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "posts/dynamic-pricing-ecommerce/index.html",
+    "href": "posts/dynamic-pricing-ecommerce/index.html",
+    "title": "Dynamic Pricing Optimization for E-commerce Retail",
+    "section": "",
+    "text": "A dashboard showing pricing recommendations and expected revenue lift."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Data Scientist proficient in SQL, Python, and R with experience in statistical modeling, data visualization, web scraping, and financial statistics. Skilled at deriving actionable insights and collaborating with cross-functional teams to support strategic business decisions.\n\n\n\n\n\n\nStat IQ (Remote) | June 2024 – Present\n- Led statistical analyses and delivered actionable insights for clients, facilitating data-driven decisions.\n- Supported study designs and conducted quantitative analyses, providing clear interpretations for stakeholders.\n\n\n\nUnilab Inc. (External) | Sept 2024 – Dec 2024\n- Designed and implemented market segmentation using K-means clustering and supply-demand gap analysis.\n- Developed an executive-level interactive dashboard in Shiny for strategic decision-making and stakeholder engagement.\n- Delivered insights that led to optimized sales and targeted distribution strategies.\n\n\n\nPremier Research Institute of Science and Mathematics, MSU-IIT | June 2022 – July 2022\n- Developed predictive models to forecast student academic performance.\n- Improved data preprocessing with automated pipelines.\n- Models were implemented by the university to improve student admissions policy.\n\n\n\n\n\n\nMaster of Science in Statistics\nMindanao State University - Iligan Institute of Technology\nAug 2023 – June 2025 (Expected)\nBachelor of Science in Statistics (Magna Cum Laude)\nMindanao State University - Iligan Institute of Technology\nAug 2019 – July 2023"
+  },
+  {
+    "objectID": "resume.html#aj-jhones-s.-lacubtan",
+    "href": "resume.html#aj-jhones-s.-lacubtan",
+    "title": "Resume",
+    "section": "",
+    "text": "Data Scientist proficient in SQL, Python, and R with experience in statistical modeling, data visualization, web scraping, and financial statistics. Skilled at deriving actionable insights and collaborating with cross-functional teams to support strategic business decisions.\n\n\n\n\n\n\nStat IQ (Remote) | June 2024 – Present\n- Led statistical analyses and delivered actionable insights for clients, facilitating data-driven decisions.\n- Supported study designs and conducted quantitative analyses, providing clear interpretations for stakeholders.\n\n\n\nUnilab Inc. (External) | Sept 2024 – Dec 2024\n- Designed and implemented market segmentation using K-means clustering and supply-demand gap analysis.\n- Developed an executive-level interactive dashboard in Shiny for strategic decision-making and stakeholder engagement.\n- Delivered insights that led to optimized sales and targeted distribution strategies.\n\n\n\nPremier Research Institute of Science and Mathematics, MSU-IIT | June 2022 – July 2022\n- Developed predictive models to forecast student academic performance.\n- Improved data preprocessing with automated pipelines.\n- Models were implemented by the university to improve student admissions policy.\n\n\n\n\n\n\nMaster of Science in Statistics\nMindanao State University - Iligan Institute of Technology\nAug 2023 – June 2025 (Expected)\nBachelor of Science in Statistics (Magna Cum Laude)\nMindanao State University - Iligan Institute of Technology\nAug 2019 – July 2023"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "🛠 Skills",
+    "text": "🛠 Skills\n\nLanguages & Databases: SQL, Python, R, PostgreSQL, MySQL, InfluxDB\n\nData Visualization: ggplot2, matplotlib, seaborn, Tableau, Looker\n\nInteractive Dashboards: Streamlit, Shiny, Taipy\n\nML & Statistical Modeling: Scikit-learn, TensorFlow, Keras, Bayesian statistics, spatiotemporal modeling, time series analysis\n\nWeb Technologies: Flask, HTML, CSS, JavaScript, web scraping\n\nTools & Frameworks: Git, GitHub, Quarto, Jupyter, Tidyverse, Azure\n\nOther: Excel, Financial Statistics, Econometrics, Data Wrangling, Experimental and Survey Designs"
+  },
+  {
+    "objectID": "resume.html#honors-and-awards",
+    "href": "resume.html#honors-and-awards",
+    "title": "Resume",
+    "section": "🏆 Honors and Awards",
+    "text": "🏆 Honors and Awards\n\nMagna Cum Laude, BS Statistics — MSU-IIT, 2023\n\nDOST-SEI Scholastic Completion Award — DOST-SEI, 2023\n\nBest Thesis Award — MSU-IIT, 2023"
   },
   {
     "objectID": "index.html",
@@ -82,19 +82,5 @@
     "title": "Data Scientist & Statistician",
     "section": "CONTACT",
     "text": "CONTACT\nI’d love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out. Send me an email at ajlacubtan@gmail.com or message me at LinkedIn."
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Mindanao State University - Iligan Institute of Technology\nMS Statistics\nCurrently exploring Bayesian statistics and spatiotemporal models with a focus on rainfall data analysis.\nMindanao State University - Iligan Institute of Technology\nBS Statistics, Magna Cum Laude\n\n\n\n\nFreelance Statistician\nSpecializations:\n\nConsulting for undergraduate research\nPLS-SEM (Partial Least Squares Structural Equation Modeling)\nCluster analysis\nExperimental designs\nSurvey operations\n\nInternship\nPremiere Research Institute of Science and Mathematics\nFocused on predictive analytics to improve university admissions.\n\n\n\n\nStatistical Analysis & Machine Learning:\n\nProficient in Python 🐍 & R\nExperience with scikit-learn, TensorFlow, and PyTorch\n\nDatabase Systems:\n- Hands-on experience with SQL (PostgreSQL) and NoSQL (MongoDB) databases\nWeb Scraping & Data Mining:\n- Skilled in Scrapy and Playwright for static and dynamic websites\nText Data Analysis:\n- Completed projects on sentiment analysis in Cebuano and Filipino languages using deep learning"
-  },
-  {
-    "objectID": "resume.html#aj-jhones-lacubtan",
-    "href": "resume.html#aj-jhones-lacubtan",
-    "title": "Resume",
-    "section": "",
-    "text": "Mindanao State University - Iligan Institute of Technology\nMS Statistics\nCurrently exploring Bayesian statistics and spatiotemporal models with a focus on rainfall data analysis.\nMindanao State University - Iligan Institute of Technology\nBS Statistics, Magna Cum Laude\n\n\n\n\nFreelance Statistician\nSpecializations:\n\nConsulting for undergraduate research\nPLS-SEM (Partial Least Squares Structural Equation Modeling)\nCluster analysis\nExperimental designs\nSurvey operations\n\nInternship\nPremiere Research Institute of Science and Mathematics\nFocused on predictive analytics to improve university admissions.\n\n\n\n\nStatistical Analysis & Machine Learning:\n\nProficient in Python 🐍 & R\nExperience with scikit-learn, TensorFlow, and PyTorch\n\nDatabase Systems:\n- Hands-on experience with SQL (PostgreSQL) and NoSQL (MongoDB) databases\nWeb Scraping & Data Mining:\n- Skilled in Scrapy and Playwright for static and dynamic websites\nText Data Analysis:\n- Completed projects on sentiment analysis in Cebuano and Filipino languages using deep learning"
   }
 ]
