@@ -1,0 +1,13 @@
+---
+title: "Dynamic Pricing Optimization for E-commerce Retail"
+author: "AJ Jhones Lacubtan"
+date: "June 6, 2024"
+categories: [machine learning, revenue optimization, predictive analytics, retail pricing strategy]
+description: |
+  Maximize revenue by modeling price elasticity and recommending optimal product prices based on historical sales data.
+image: "image.png"
+---
+
+![](image.png){fig-align="center"}
+
+A dashboard showing pricing recommendations and expected revenue lift.

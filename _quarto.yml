@@ -46,5 +46,3 @@ format:
       dark: [darkly, css/dark.scss]
     css: css/styles.css
     code-fold: show
-
-editor: visual

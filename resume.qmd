@@ -1,58 +1,65 @@
 ---
 title: "Resume"
+format: html
+page-layout: full
 ---
 
-## AJ Jhones Lacubtan
+## AJ Jhones S. Lacubtan
 
-### 📊 MS Statistics Student & Freelance Statistician 📈
+### Professional Summary
 
-------------------------------------------------------------------------
+Data Scientist proficient in **SQL, Python, and R** with experience in **statistical modeling**, **data visualization**, **web scraping**, and **financial statistics**. Skilled at deriving actionable insights and collaborating with cross-functional teams to support strategic business decisions.
 
-### Education
+---
 
-**Mindanao State University - Iligan Institute of Technology**\
-*MS Statistics*\
-Currently exploring Bayesian statistics and spatiotemporal models with a focus on rainfall data analysis.
+### 💼 Experience
 
-**Mindanao State University - Iligan Institute of Technology**\
-*BS Statistics, Magna Cum Laude*
+#### Co-Founder | Freelance Statistician  
+**Stat IQ (Remote)** | *June 2024 – Present*  
+- Led statistical analyses and delivered actionable insights for clients, facilitating data-driven decisions.  
+- Supported study designs and conducted quantitative analyses, providing clear interpretations for stakeholders.  
 
-------------------------------------------------------------------------
+#### Data Science Consultant *(Project-based)*  
+**Unilab Inc. (External)** | *Sept 2024 – Dec 2024*  
+- Designed and implemented market segmentation using K-means clustering and supply-demand gap analysis.  
+- Developed an executive-level interactive dashboard in **Shiny** for strategic decision-making and stakeholder engagement.  
+- Delivered insights that led to optimized sales and targeted distribution strategies.  
 
-### Professional Experience
+#### Data Science Intern  
+**Premier Research Institute of Science and Mathematics, MSU-IIT** | *June 2022 – July 2022*  
+- Developed predictive models to forecast student academic performance.  
+- Improved data preprocessing with automated pipelines.  
+- Models were implemented by the university to improve student admissions policy.
 
-**Freelance Statistician**\
-*Specializations:*
+---
 
--   Consulting for undergraduate research
+### 🎓 Education
 
--   PLS-SEM (Partial Least Squares Structural Equation Modeling)
+- **Master of Science in Statistics**  
+  *Mindanao State University - Iligan Institute of Technology*  
+  *Aug 2023 – June 2025 (Expected)*
 
--   Cluster analysis
+- **Bachelor of Science in Statistics (Magna Cum Laude)**  
+  *Mindanao State University - Iligan Institute of Technology*  
+  *Aug 2019 – July 2023*
 
--   Experimental designs
+---
 
--   Survey operations
+## 🛠 Skills
 
-**Internship**\
-*Premiere Research Institute of Science and Mathematics*\
-Focused on predictive analytics to improve university admissions.
+- **Languages & Databases:** SQL, Python, R, PostgreSQL, MySQL, InfluxDB  
+- **Data Visualization:** ggplot2, matplotlib, seaborn, Tableau, Looker  
+- **Interactive Dashboards:** Streamlit, Shiny, Taipy  
+- **ML & Statistical Modeling:** Scikit-learn, TensorFlow, Keras, Bayesian statistics, spatiotemporal modeling, time series analysis  
+- **Web Technologies:** Flask, HTML, CSS, JavaScript, web scraping  
+- **Tools & Frameworks:** Git, GitHub, Quarto, Jupyter, Tidyverse, Azure  
+- **Other:** Excel, Financial Statistics, Econometrics, Data Wrangling, Experimental and Survey Designs
 
-------------------------------------------------------------------------
+---
 
-### Skills & Tools
+## 🏆 Honors and Awards
 
-**Statistical Analysis & Machine Learning:**
+- **Magna Cum Laude**, BS Statistics — *MSU-IIT, 2023*  
+- **DOST-SEI Scholastic Completion Award** — *DOST-SEI, 2023*  
+- **Best Thesis Award** — *MSU-IIT, 2023*
 
-- Proficient in Python 🐍 & R
-
-- Experience with scikit-learn, TensorFlow, and PyTorch
-
-**Database Systems:**\
-- Hands-on experience with SQL (PostgreSQL) and NoSQL (MongoDB) databases
-
-**Web Scraping & Data Mining:**\
-- Skilled in Scrapy and Playwright for static and dynamic websites
-
-**Text Data Analysis:**\
-- Completed projects on sentiment analysis in Cebuano and Filipino languages using deep learning
