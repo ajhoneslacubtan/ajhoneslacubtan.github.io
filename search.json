@@ -1,52 +1,24 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "posts/data-visualizations/index.html",
+    "href": "posts/data-visualizations/index.html",
+    "title": "Data Visualization Portfolio",
     "section": "",
-    "text": "Dynamic Pricing Optimization for E-commerce Retail\n\n\n\nmachine learning\n\nrevenue optimization\n\npredictive analytics\n\nretail pricing strategy\n\n\n\nMaximize revenue by modeling price elasticity and recommending optimal product prices based on historical sales data.\n\n\n\n\n\nJun 6, 2024\n\n\nAJ Jhones Lacubtan\n\n\n\n\n\nNo matching items"
+    "text": "Data visualization is not just about making charts—it’s about shaping how people understand information. This portfolio features a diverse collection of visual storytelling techniques, from ridge plots and slope charts to KDE overlays, pictograms, and polar heatmaps. Each piece is crafted to reveal patterns, compare trends, or highlight part-to-whole relationships, using tools like Matplotlib, Seaborn, ggplot2, and thoughtful design enhancement. Whether it’s an abstract 2D density map or a clean part-to-whole breakdown, every visual here reflects my goal: to turn data into insight through clarity, structure, and creativity."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
+    "objectID": "posts/data-visualizations/index.html#insights-at-a-glance",
+    "href": "posts/data-visualizations/index.html#insights-at-a-glance",
+    "title": "Data Visualization Portfolio",
+    "section": "Insights at a Glance",
+    "text": "Insights at a Glance\n\nRegional Income Inequality\n\n\n\nFilipino Household Income Per Region\n\n\nNCR and Central Luzon sit at the top of the income ladder while ARMM anchors the bottom, exposing wide regional gaps and large within-region spreads in richer areas.\n\n\n\nVaccination Gap\n\n\n\nPhilippine Vaccine Rollout Update\n\n\nOnly 15.5 % of Filipinos were fully vaccinated in mid-2021—far below the 70 % herd-immunity goal—highlighting how urgently the rollout needed to accelerate.\n\n\n\nWhat Drives Boston Home Prices?\n\n\n\nBoston House Prices Correlation Heatmap\n\n\nStrong TAX–RAD (0.91) and DIS–AGE (0.73) correlations flag multicollinearity risks, while the −0.74 link between PRICE and LSTAT marks socioeconomic status as a key price driver.\n\n\n\nSeasons in a Single Glance\n\n\n\nRidgeline Plot of Min and Max Temperatures\n\n\nRidgelines drift higher and broaden from April to May, turning a year of climate data into an intuitive seasonal fingerprint of Bukidnon’s warming cycle.\n\n\n\nFarming Winners and Laggards\n\n\n\nPhilippine Food and Agriculture Production Slope Chart\n\n\nRice’s steep climb dwarfs other staples, while coffee and beef stay flat—revealing both the strength of grain production and untapped potential in specialty crops.\n\n\n\nAnatomy of an Athlete\n\n\n\nHeight–Weight Scatter with KDE\n\n\nMale Olympians cluster around 170 cm/70 kg, females lower and lighter, with KDE ridges underscoring gender-specific “athlete zones” that could guide talent scouting.\n\n\n\nThe Price of Ivory\n\n\n\nAfrican Bush Elephant Trade Bar Chart\n\n\nIvory carvings, tusks, and trophies dominate the trade—an unsettling visual reminder of how consumer demand threatens an iconic species.\n\n\n\nYouth Vote, Big Voice\n\n\n\nRegistered Voters by Age Group Pictogram\n\n\nMore than 53 % of registered voters are under 40, signaling a generational power shift that could reshape future Philippine elections.\n\n\n\nPathways to the Stars\n\n\n\nTop Astronaut Majors\n\n\nOne-third of astronauts studied Physics; Aerospace and Mechanical Engineering follow closely. STEM still reigns supreme on the road to space.\n\n\n\nRating Magical Worlds\n\n\n\nGenre Ratings for Magical Anime\n\n\nThriller and Psychological genres top the ratings, while Parody trails—showing audiences favor darker, introspective magic over lighthearted fare.\n\n\n\nMultivariate Health Snapshot\n A single grid unveils how biomarkers cluster: healthy donors pack tightly around low ALT/AST, while hepatitis cases scatter higher on both axes. Diagonal histograms confirm dramatic right-skew in disease markers—clear signals for any diagnostic model.\n\n\n\nDensity, Reimagined\n\n\n\n2-D KDE Abstract\n\n\nAn abstract 2-D KDE turns raw coordinates into fluid contour rings—demonstrating how a statistical surface can double as minimalist art without losing its sense of central tendency and spread.\n\n\n\nWind Meets Temperature\n\n\n\nPolar Heatmap of Wind vs Temperature\n\n\nThis polar heatmap maps wind direction against speed, with color encoding temperature. Warm reds concentrate in south-westerlies, while cooler teals hug north-eastern bands—linking micro-climate breezes to swings in New York’s daily temps."
   },
   {
-    "objectID": "posts/dynamic-pricing-ecommerce/index.html",
-    "href": "posts/dynamic-pricing-ecommerce/index.html",
-    "title": "Dynamic Pricing Optimization for E-commerce Retail",
-    "section": "",
-    "text": "[👷🏼TO BE UPDATED]"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Data Scientist proficient in SQL, Python, and R with experience in statistical modeling, data visualization, web scraping, and financial statistics. Skilled at deriving actionable insights and collaborating with cross-functional teams to support strategic business decisions.\n\n\n\n\n\n\nStat IQ (Remote) | June 2024 – Present\n- Led statistical analyses and delivered actionable insights for clients, facilitating data-driven decisions.\n- Supported study designs and conducted quantitative analyses, providing clear interpretations for stakeholders.\n\n\n\nUnilab Inc. (External) | Sept 2024 – Dec 2024\n- Designed and implemented market segmentation using K-means clustering and supply-demand gap analysis.\n- Developed an executive-level interactive dashboard in Shiny for strategic decision-making and stakeholder engagement.\n- Delivered insights that led to optimized sales and targeted distribution strategies.\n\n\n\nPremier Research Institute of Science and Mathematics, MSU-IIT | June 2022 – July 2022\n- Developed predictive models to forecast student academic performance.\n- Improved data preprocessing with automated pipelines.\n- Models were implemented by the university to improve student admissions policy.\n\n\n\n\n\n\nMaster of Science in Statistics\nMindanao State University - Iligan Institute of Technology\nAug 2023 – June 2025 (Expected)\nBachelor of Science in Statistics (Magna Cum Laude)\nMindanao State University - Iligan Institute of Technology\nAug 2019 – July 2023"
-  },
-  {
-    "objectID": "resume.html#aj-jhones-s.-lacubtan",
-    "href": "resume.html#aj-jhones-s.-lacubtan",
-    "title": "Resume",
-    "section": "",
-    "text": "Data Scientist proficient in SQL, Python, and R with experience in statistical modeling, data visualization, web scraping, and financial statistics. Skilled at deriving actionable insights and collaborating with cross-functional teams to support strategic business decisions.\n\n\n\n\n\n\nStat IQ (Remote) | June 2024 – Present\n- Led statistical analyses and delivered actionable insights for clients, facilitating data-driven decisions.\n- Supported study designs and conducted quantitative analyses, providing clear interpretations for stakeholders.\n\n\n\nUnilab Inc. (External) | Sept 2024 – Dec 2024\n- Designed and implemented market segmentation using K-means clustering and supply-demand gap analysis.\n- Developed an executive-level interactive dashboard in Shiny for strategic decision-making and stakeholder engagement.\n- Delivered insights that led to optimized sales and targeted distribution strategies.\n\n\n\nPremier Research Institute of Science and Mathematics, MSU-IIT | June 2022 – July 2022\n- Developed predictive models to forecast student academic performance.\n- Improved data preprocessing with automated pipelines.\n- Models were implemented by the university to improve student admissions policy.\n\n\n\n\n\n\nMaster of Science in Statistics\nMindanao State University - Iligan Institute of Technology\nAug 2023 – June 2025 (Expected)\nBachelor of Science in Statistics (Magna Cum Laude)\nMindanao State University - Iligan Institute of Technology\nAug 2019 – July 2023"
-  },
-  {
-    "objectID": "resume.html#skills",
-    "href": "resume.html#skills",
-    "title": "Resume",
-    "section": "🛠 Skills",
-    "text": "🛠 Skills\n\nLanguages & Databases: SQL, Python, R, PostgreSQL, MySQL, InfluxDB\n\nData Visualization: ggplot2, matplotlib, seaborn, Tableau, Looker\n\nInteractive Dashboards: Streamlit, Shiny, Taipy\n\nML & Statistical Modeling: Scikit-learn, TensorFlow, Keras, Bayesian statistics, spatiotemporal modeling, time series analysis\n\nWeb Technologies: Flask, HTML, CSS, JavaScript, web scraping\n\nTools & Frameworks: Git, GitHub, Quarto, Jupyter, Tidyverse, Azure\n\nOther: Excel, Financial Statistics, Econometrics, Data Wrangling, Experimental and Survey Designs"
-  },
-  {
-    "objectID": "resume.html#honors-and-awards",
-    "href": "resume.html#honors-and-awards",
-    "title": "Resume",
-    "section": "🏆 Honors and Awards",
-    "text": "🏆 Honors and Awards\n\nMagna Cum Laude, BS Statistics — MSU-IIT, 2023\n\nDOST-SEI Scholastic Completion Award — DOST-SEI, 2023\n\nBest Thesis Award — MSU-IIT, 2023"
+    "objectID": "posts/data-visualizations/index.html#reflections-and-next-steps",
+    "href": "posts/data-visualizations/index.html#reflections-and-next-steps",
+    "title": "Data Visualization Portfolio",
+    "section": "Reflections and Next Steps",
+    "text": "Reflections and Next Steps\nCreating these visualizations has reinforced my belief that good data visualization is as much about storytelling as it is about clarity and accuracy. Each chart represents an intentional effort to simplify complexity and to highlight insights that might otherwise remain hidden. By experimenting across multiple visualization techniques and datasets, I’ve deepened my skills in design thinking, statistical interpretation, and audience-focused communication.\n\nLet’s Talk Data Stories\nHave a dataset that deserves to be seen, not just analyzed?\nWhether you’re looking to visualize research findings, tell a story with public data, or enhance stakeholder reports, I’d love to help turn raw numbers into compelling visuals.\nFeel free to email me or explore more of my work on GitHub."
   },
   {
     "objectID": "index.html",
@@ -82,5 +54,54 @@
     "title": "Data Scientist & Statistician",
     "section": "CONTACT",
     "text": "CONTACT\nI’d love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out. Send me an email at ajlacubtan@gmail.com or message me at LinkedIn."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Dynamic Pricing Optimization for E-commerce Retail\n\n\n\nmachine learning\n\nrevenue optimization\n\npredictive analytics\n\nretail pricing strategy\n\n\n\nMaximize revenue by modeling price elasticity and recommending optimal product prices based on historical sales data.\n\n\n\n\n\nJun 6, 2024\n\n\nAJ Jhones Lacubtan\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization Portfolio\n\n\n\ndata visualization\n\nstorytelling\n\nmatplotlib\n\nseaborn\n\nggplot2\n\n\n\nA curated collection of static data visualizations created using Matplotlib, Seaborn, and ggplot2—designed to transform raw data into clear, engaging narratives through visual storytelling.\n\n\n\n\n\nJun 6, 2024\n\n\nAJ Jhones Lacubtan\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Data Scientist proficient in SQL, Python, and R with experience in statistical modeling, data visualization, web scraping, and financial statistics. Skilled at deriving actionable insights and collaborating with cross-functional teams to support strategic business decisions.\n\n\n\n\n\n\nStat IQ (Remote) | June 2024 – Present\n- Led statistical analyses and delivered actionable insights for clients, facilitating data-driven decisions.\n- Supported study designs and conducted quantitative analyses, providing clear interpretations for stakeholders.\n\n\n\nUnilab Inc. (External) | Sept 2024 – Dec 2024\n- Designed and implemented market segmentation using K-means clustering and supply-demand gap analysis.\n- Developed an executive-level interactive dashboard in Shiny for strategic decision-making and stakeholder engagement.\n- Delivered insights that led to optimized sales and targeted distribution strategies.\n\n\n\nPremier Research Institute of Science and Mathematics, MSU-IIT | June 2022 – July 2022\n- Developed predictive models to forecast student academic performance.\n- Improved data preprocessing with automated pipelines.\n- Models were implemented by the university to improve student admissions policy.\n\n\n\n\n\n\nMaster of Science in Statistics\nMindanao State University - Iligan Institute of Technology\nAug 2023 – June 2025 (Expected)\nBachelor of Science in Statistics (Magna Cum Laude)\nMindanao State University - Iligan Institute of Technology\nAug 2019 – July 2023"
+  },
+  {
+    "objectID": "resume.html#aj-jhones-s.-lacubtan",
+    "href": "resume.html#aj-jhones-s.-lacubtan",
+    "title": "Resume",
+    "section": "",
+    "text": "Data Scientist proficient in SQL, Python, and R with experience in statistical modeling, data visualization, web scraping, and financial statistics. Skilled at deriving actionable insights and collaborating with cross-functional teams to support strategic business decisions.\n\n\n\n\n\n\nStat IQ (Remote) | June 2024 – Present\n- Led statistical analyses and delivered actionable insights for clients, facilitating data-driven decisions.\n- Supported study designs and conducted quantitative analyses, providing clear interpretations for stakeholders.\n\n\n\nUnilab Inc. (External) | Sept 2024 – Dec 2024\n- Designed and implemented market segmentation using K-means clustering and supply-demand gap analysis.\n- Developed an executive-level interactive dashboard in Shiny for strategic decision-making and stakeholder engagement.\n- Delivered insights that led to optimized sales and targeted distribution strategies.\n\n\n\nPremier Research Institute of Science and Mathematics, MSU-IIT | June 2022 – July 2022\n- Developed predictive models to forecast student academic performance.\n- Improved data preprocessing with automated pipelines.\n- Models were implemented by the university to improve student admissions policy.\n\n\n\n\n\n\nMaster of Science in Statistics\nMindanao State University - Iligan Institute of Technology\nAug 2023 – June 2025 (Expected)\nBachelor of Science in Statistics (Magna Cum Laude)\nMindanao State University - Iligan Institute of Technology\nAug 2019 – July 2023"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "🛠 Skills",
+    "text": "🛠 Skills\n\nLanguages & Databases: SQL, Python, R, PostgreSQL, MySQL, InfluxDB\n\nData Visualization: ggplot2, matplotlib, seaborn, Tableau, Looker\n\nInteractive Dashboards: Streamlit, Shiny, Taipy\n\nML & Statistical Modeling: Scikit-learn, TensorFlow, Keras, Bayesian statistics, spatiotemporal modeling, time series analysis\n\nWeb Technologies: Flask, HTML, CSS, JavaScript, web scraping\n\nTools & Frameworks: Git, GitHub, Quarto, Jupyter, Tidyverse, Azure\n\nOther: Excel, Financial Statistics, Econometrics, Data Wrangling, Experimental and Survey Designs"
+  },
+  {
+    "objectID": "resume.html#honors-and-awards",
+    "href": "resume.html#honors-and-awards",
+    "title": "Resume",
+    "section": "🏆 Honors and Awards",
+    "text": "🏆 Honors and Awards\n\nMagna Cum Laude, BS Statistics — MSU-IIT, 2023\n\nDOST-SEI Scholastic Completion Award — DOST-SEI, 2023\n\nBest Thesis Award — MSU-IIT, 2023"
+  },
+  {
+    "objectID": "posts/dynamic-pricing-ecommerce/index.html",
+    "href": "posts/dynamic-pricing-ecommerce/index.html",
+    "title": "Dynamic Pricing Optimization for E-commerce Retail",
+    "section": "",
+    "text": "[👷🏼TO BE UPDATED]"
   }
 ]
