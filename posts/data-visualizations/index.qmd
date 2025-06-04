@@ -1,0 +1,132 @@
+---
+title: "Data Visualization Portfolio"
+author: "AJ Jhones Lacubtan"
+date: "June 6, 2024"
+categories: [data visualization, storytelling, matplotlib, seaborn, ggplot2]
+description: |
+  A curated collection of static data visualizations created using Matplotlib, Seaborn, and ggplot2—designed to transform raw data into clear, engaging narratives through visual storytelling.
+image: "images/hero.png"
+---
+
+Data visualization is not just about making charts—it’s about shaping how people understand information. This portfolio features a diverse collection of visual storytelling techniques, from **ridge plots** and **slope charts** to **KDE overlays**, **pictograms**, and **polar heatmaps**. Each piece is crafted to reveal patterns, compare trends, or highlight part-to-whole relationships, using tools like **Matplotlib**, **Seaborn**, **ggplot2**, and thoughtful design enhancement. Whether it’s an abstract 2D density map or a clean part-to-whole breakdown, every visual here reflects my goal: to turn data into insight through clarity, structure, and creativity.
+
+::: callout-tip
+### Tools & Workflow {.callout-note}
+
+**Code:** Python (`matplotlib`, `seaborn`) • R (`ggplot2`)\
+**Design Touch-ups:** Photoshop\
+**Goal:** transform raw data into clear visual stories.
+:::
+
+## Insights at a Glance
+
+### Regional Income Inequality
+![Filipino Household Income Per Region](images/box-plots.jpg){fig-alt="Horizontal box-plots of monthly household income across Philippine regions."}
+
+
+NCR and Central Luzon sit at the top of the income ladder while ARMM anchors the bottom, exposing wide regional gaps and large within-region spreads in richer areas.
+
+---
+
+### Vaccination Gap
+![Philippine Vaccine Rollout Update](images/part-to-whole.jpg){fig-alt="Doughnut chart showing vaccination status of Filipinos as of July 26 2021."}
+
+
+Only **15.5 %** of Filipinos were fully vaccinated in mid-2021—far below the 70 % herd-immunity goal—highlighting how urgently the rollout needed to accelerate.
+
+---
+
+### What Drives Boston Home Prices?
+![Boston House Prices Correlation Heatmap](images/correlation-heatmap.jpg){fig-alt="Triangular heatmap of feature correlations in the Boston housing dataset."}
+
+
+Strong TAX–RAD (0.91) and DIS–AGE (0.73) correlations flag multicollinearity risks, while the −0.74 link between PRICE and LSTAT marks socioeconomic status as a key price driver.
+
+---
+
+### Seasons in a Single Glance
+![Ridgeline Plot of Min and Max Temperatures](images/ridge-plot.jpg){fig-alt="Ridgeline plot of monthly min/max temperature distributions in Bukidnon."}
+
+
+Ridgelines drift higher and broaden from April to May, turning a year of climate data into an intuitive seasonal fingerprint of Bukidnon’s warming cycle.
+
+---
+
+### Farming Winners and Laggards
+![Philippine Food and Agriculture Production Slope Chart](images/slope-chart.jpg){fig-alt="Slope chart of crop production from 2000 to 2018."}
+
+
+Rice’s steep climb dwarfs other staples, while coffee and beef stay flat—revealing both the strength of grain production and untapped potential in specialty crops.
+
+---
+
+### Anatomy of an Athlete
+![Height–Weight Scatter with KDE](images/scatter-kde.jpg){fig-alt="Scatter plot with marginal KDEs of Filipino Olympians’ height and weight."}
+
+Male Olympians cluster around 170 cm/70 kg, females lower and lighter, with KDE ridges underscoring gender-specific “athlete zones” that could guide talent scouting.
+
+---
+
+### The Price of Ivory
+![African Bush Elephant Trade Bar Chart](images/vertical-bar.jpg){fig-alt="Horizontal bar chart of elephant products traded 2016–2017."}
+
+
+Ivory carvings, tusks, and trophies dominate the trade—an unsettling visual reminder of how consumer demand threatens an iconic species.
+
+---
+
+### Youth Vote, Big Voice
+![Registered Voters by Age Group Pictogram](images/pictogram.jpg){fig-alt="Pictogram of Philippine voter counts by age group for 2019 elections."}
+
+
+More than **53 %** of registered voters are under 40, signaling a generational power shift that could reshape future Philippine elections.
+
+---
+
+### Pathways to the Stars
+![Top Astronaut Majors](images/vertical-barchart.jpg){fig-alt="Horizontal bar chart of college majors among astronauts."}
+
+
+One-third of astronauts studied Physics; Aerospace and Mechanical Engineering follow closely. STEM still reigns supreme on the road to space.
+
+---
+
+### Rating Magical Worlds
+![Genre Ratings for Magical Anime](images/comparisons.jpg){fig-alt="Dot–line chart ranking anime genres by average rating."}
+
+
+Thriller and Psychological genres top the ratings, while Parody trails—showing audiences favor darker, introspective magic over lighthearted fare.
+
+---
+
+### Multivariate Health Snapshot
+![Hepatitis C Virus Prediction Dataset — Pairplot](images/pairplot.jpg){fig-alt="Pairplot of liver-function biomarkers with points colored by blood-donor vs hepatitis status."}
+A single grid unveils how biomarkers cluster: healthy donors pack tightly around low ALT/AST, while hepatitis cases scatter higher on both axes. Diagonal histograms confirm dramatic right-skew in disease markers—clear signals for any diagnostic model.
+
+---
+
+### Density, Reimagined
+![2-D KDE Abstract](images/2d-kde-abstract.jpg){fig-alt="Concentric 2-D KDE contours rendered in a monochrome palette, abstract art style."}
+
+
+An abstract 2-D KDE turns raw coordinates into fluid contour rings—demonstrating how a statistical surface can double as minimalist art without losing its sense of central tendency and spread.
+
+---
+
+### Wind Meets Temperature
+![Polar Heatmap of Wind vs Temperature](images/polar-heatmap.jpg){fig-alt="Circular polar heatmap showing New York wind direction/speed correlation with average temperature."}
+
+
+This polar heatmap maps wind direction against speed, with color encoding temperature. Warm reds concentrate in south-westerlies, while cooler teals hug north-eastern bands—linking micro-climate breezes to swings in New York’s daily temps.
+
+---
+
+## Reflections and Next Steps
+Creating these visualizations has reinforced my belief that good data visualization is as much about storytelling as it is about clarity and accuracy. Each chart represents an intentional effort to simplify complexity and to highlight insights that might otherwise remain hidden. By experimenting across multiple visualization techniques and datasets, I've deepened my skills in design thinking, statistical interpretation, and audience-focused communication.
+
+### Let’s Talk Data Stories
+
+Have a dataset that deserves to be seen, not just analyzed?
+
+Whether you're looking to visualize research findings, tell a story with public data, or enhance stakeholder reports, I'd love to help turn raw numbers into compelling visuals.  
+Feel free to [email me](mailto:ajlacubtan@gmail.com) or explore more of my work on [GitHub](https://github.com/ajhoneslacubtan).
