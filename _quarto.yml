@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - robots.txt
+    - google5fb8ba76b27d7523.html
 
 website:
   title: "AJ Lacubtan"
