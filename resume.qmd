@@ -1,65 +1,186 @@
 ---
 title: "Resume"
-format: html
+format:
+  html:
+    css: css/resume.css
 page-layout: full
 ---
 
-## AJ Jhones S. Lacubtan
+::: {.resume-shell}
+
+::: {.resume-hero}
+::: {.resume-kicker}
+Data Scientist & Statistician
+:::
+
+# AJ Jhones S. Lacubtan
+
+::: {.resume-actions}
+<a class="resume-button" href="mailto:ajlacubtan@gmail.com"><i class="bi bi-envelope"></i>Email</a>
+<a class="resume-button" href="https://www.linkedin.com/in/aj-jhones-lacubtan/"><i class="bi bi-linkedin"></i>LinkedIn</a>
+<a class="resume-button" href="https://github.com/ajhoneslacubtan"><i class="bi bi-github"></i>GitHub</a>
+:::
+:::
 
 ### Professional Summary
 
-Data Scientist proficient in **SQL, Python, and R** with experience in **statistical modeling**, **data visualization**, **web scraping**, and **financial statistics**. Skilled at deriving actionable insights and collaborating with cross-functional teams to support strategic business decisions.
+::: {.resume-summary}
+Data Scientist and Statistician with experience delivering analytics solutions across retail, QSR, banking, academic research, and industry consulting. Skilled in translating raw data and complex business problems into client-facing metrics, dashboards, and actionable insights. Experienced in computer vision analytics, data integrity testing, predictive modeling, market analytics, experimental design, and statistical validation. Co-founder of Stat IQ, where I support clients in designing rigorous research methodologies and interpreting results for decision-making. Proficient in Python, R, SQL, and dashboarding tools, with a strong focus on analytical rigor, business relevance, and clear stakeholder communication.
+:::
 
----
+### Experience
 
-### 💼 Experience
+::: {.resume-timeline}
 
-#### Co-Founder | Freelance Statistician  
-**Stat IQ (Remote)** | *June 2024 – Present*  
-- Led statistical analyses and delivered actionable insights for clients, facilitating data-driven decisions.  
-- Supported study designs and conducted quantitative analyses, providing clear interpretations for stakeholders.  
+::: {.resume-entry}
+#### Data Scientist
+**meldCX Philippines Inc. (Cagayan de Oro City, Philippines)** | *July 2025 - Present*
 
-#### Data Science Consultant *(Project-based)*  
-**Unilab Inc. (External)** | *Sept 2024 – Dec 2024*  
-- Designed and implemented market segmentation using K-means clustering and supply-demand gap analysis.  
-- Developed an executive-level interactive dashboard in **Shiny** for strategic decision-making and stakeholder engagement.  
-- Delivered insights that led to optimized sales and targeted distribution strategies.  
+- Delivered actionable insights for retail, QSR, and banking clients using analytics from computer vision-based products and solutions.
+- Defined client-facing metrics and designed dashboards aligned with business objectives, operational priorities, and reporting needs.
+- Translated raw computer vision events into structured analytics outputs for client reporting and insight generation.
+- Led data integrity checks, KPI validation, and testing to ensure dashboard accuracy, consistency, and production readiness.
+- Collaborated with product and engineering teams to identify analytics requirements, investigate data issues, and improve insight delivery.
+:::
 
-#### Data Science Intern  
-**Premier Research Institute of Science and Mathematics, MSU-IIT** | *June 2022 – July 2022*  
-- Developed predictive models to forecast student academic performance.  
-- Improved data preprocessing with automated pipelines.  
-- Models were implemented by the university to improve student admissions policy.
+::: {.resume-entry}
+#### Co-Founder | Statistician
+**[Stat IQ](https://www.facebook.com/people/Stat-IQ/61567715184633/) (Remote)** | *June 2024 - Present*
 
----
+- Support academic research and industry projects by guiding clients through experiment design, hypothesis formulation, statistical test selection, data collection protocols, survey design, sampling strategies, and validation studies.
+- Translate research questions into statistically rigorous frameworks suited for peer or stakeholder review, including studies related to compensation, engagement, market behavior, and pricing.
+:::
 
-### 🎓 Education
+::: {.resume-entry}
+#### Data Science Consultant
+**Unilab Inc. (Remote)** | *September 2024 - December 2024*
 
-- **Master of Science in Statistics**  
-  *Mindanao State University - Iligan Institute of Technology*  
-  *Aug 2023 – June 2025 (Expected)*
+- Conducted a market segmentation study using K-means clustering and supply-demand analysis to optimize product positioning.
+- Designed and deployed a stakeholder-facing dashboard to support distribution and sales teams.
+- Communicated findings through business presentations, driving alignment between analytics insights and strategic planning.
+:::
 
-- **Bachelor of Science in Statistics (Magna Cum Laude)**  
-  *Mindanao State University - Iligan Institute of Technology*  
-  *Aug 2019 – July 2023*
+::: {.resume-entry}
+#### Data Science Intern
+**[Premier Research Institute of Science and Mathematics, MSU-IIT](https://www.msuiit.edu.ph/prism/index.php) (Iligan City, Philippines)** | *June 2022 - June 2023*
 
----
+- Co-developed a web-based recommender tool for student profiling and academic placement.
+- Trained supervised models using `scikit-learn` and neural networks for behavioral predictions.
+- Handled model validation and deployment pipeline setup for real-time recommendation.
+:::
 
-## 🛠 Skills
+:::
 
-- **Languages & Databases:** SQL, Python, R, PostgreSQL, MySQL, InfluxDB  
-- **Data Visualization:** ggplot2, matplotlib, seaborn, Tableau, Looker  
-- **Interactive Dashboards:** Streamlit, Shiny, Taipy  
-- **ML & Statistical Modeling:** Scikit-learn, TensorFlow, Keras, Bayesian statistics, spatiotemporal modeling, time series analysis  
-- **Web Technologies:** Flask, HTML, CSS, JavaScript, web scraping  
-- **Tools & Frameworks:** Git, GitHub, Quarto, Jupyter, Tidyverse, Azure  
-- **Other:** Excel, Financial Statistics, Econometrics, Data Wrangling, Experimental and Survey Designs
+### Education
 
----
+::: {.resume-grid}
+::: {.resume-card}
+<div class="education-card"><span class="education-icon"><i class="bi bi-mortarboard"></i></span><div class="education-copy"><strong>Master of Science in Statistics</strong><em>Mindanao State University - Iligan Institute of Technology</em><em>August 2023 - June 2025</em></div></div>
+:::
 
-## 🏆 Honors and Awards
+::: {.resume-card}
+<div class="education-card"><span class="education-icon"><i class="bi bi-award"></i></span><div class="education-copy"><strong>Bachelor of Science in Statistics</strong><em>Mindanao State University - Iligan Institute of Technology</em><em>August 2019 - July 2023</em></div></div>
+:::
+:::
 
-- **Magna Cum Laude**, BS Statistics — *MSU-IIT, 2023*  
-- **DOST-SEI Scholastic Completion Award** — *DOST-SEI, 2023*  
-- **Best Thesis Award** — *MSU-IIT, 2023*
+### Selected Projects
 
+::: {.resume-grid}
+::: {.resume-card}
+#### [AD-GEnKS Adaptive MCMC](https://github.com/ajhoneslacubtan/AD-GEnKS-AdaptiveMCMC)
+*R, Bayesian modeling, adaptive MCMC, spatiotemporal forecasting*
+
+- Implemented adaptive MCMC workflows for Bayesian dynamic spatiotemporal models.
+- Supported probabilistic forecasting of solar radiation fields using advection-diffusion motivated model structure.
+- Developed research code connected to my MS Statistics thesis work on short-term solar radiation forecasting.
+:::
+
+::: {.resume-card}
+#### [Philippine COVID-19 Vaccine Sentiment Analysis](https://github.com/ajhoneslacubtan/covidvaxsentimentph)
+*Python, LSTM, Bidirectional LSTM, CNN-LSTM, CNN, Word2Vec, Label Studio | June 2023 - August 2023*
+
+- Developed deep learning sentiment analysis models to classify sentiments in tweets and Reddit posts related to COVID-19 vaccines in the Philippines.
+- Collected and labeled data from Twitter and Reddit using scraping tools and Label Studio.
+- Applied Word2Vec for feature extraction using a pre-trained model from the Filipino Word Embeddings repository.
+- Built a reproducible pipeline for preprocessing, model training, and evaluation.
+:::
+:::
+
+### Skills
+
+::: {.skill-grid}
+- **Programming Languages:**  
+  <span class="skill-chip"><i class="devicon-python-plain"></i>Python</span>
+  <span class="skill-chip"><i class="devicon-r-plain"></i>R</span>
+  <span class="skill-chip"><i class="devicon-julia-plain"></i>Julia</span>
+  <span class="skill-chip"><i class="bi bi-database"></i>SQL</span>
+- **Visualization & Dashboards:**  
+  <span class="skill-chip"><i class="devicon-jupyter-plain"></i>Jupyter</span>
+  <span class="skill-chip"><i class="devicon-matplotlib-plain"></i>matplotlib</span>
+  <span class="skill-chip"><i class="devicon-plotly-plain"></i>Plotly</span>
+  <span class="skill-chip"><i class="bi bi-bar-chart-line"></i>Power BI</span>
+  <span class="skill-chip"><i class="bi bi-window-sidebar"></i>Streamlit</span>
+  <span class="skill-chip"><i class="bi bi-file-richtext"></i>Quarto</span>
+  <span class="skill-chip"><i class="bi bi-graph-up-arrow"></i>ggplot2</span>
+  <span class="skill-chip"><i class="bi bi-layout-wtf"></i>Taipy</span>
+- **Web & Backend Technologies:**  
+  <span class="skill-chip"><i class="devicon-flask-original"></i>Flask</span>
+  <span class="skill-chip"><i class="devicon-html5-plain"></i>HTML</span>
+  <span class="skill-chip"><i class="devicon-css3-plain"></i>CSS</span>
+  <span class="skill-chip"><i class="devicon-javascript-plain"></i>JavaScript</span>
+- **Database Systems:**  
+  <span class="skill-chip"><i class="devicon-mysql-plain"></i>MySQL</span>
+  <span class="skill-chip"><i class="devicon-postgresql-plain"></i>PostgreSQL</span>
+  <span class="skill-chip"><i class="devicon-sqlite-plain"></i>SQLite</span>
+  <span class="skill-chip"><i class="devicon-mongodb-plain"></i>MongoDB</span>
+  <span class="skill-chip"><i class="bi bi-clock-history"></i>TimescaleDB</span>
+  <span class="skill-chip"><i class="bi bi-snow2"></i>Snowflake</span>
+- **Cloud & DevOps Tools:**  
+  <span class="skill-chip"><i class="devicon-amazonwebservices-plain-wordmark"></i>AWS</span>
+  <span class="skill-chip"><i class="devicon-azure-plain"></i>Azure</span>
+  <span class="skill-chip"><i class="devicon-git-plain"></i>Git</span>
+  <span class="skill-chip"><i class="devicon-github-original"></i>GitHub</span>
+  <span class="skill-chip"><i class="devicon-docker-plain"></i>Docker</span>
+  <span class="skill-chip"><i class="bi bi-box"></i>MLflow</span>
+  <span class="skill-chip"><i class="bi bi-gpu-card"></i>Paperspace</span>
+- **Specialized Tools:**  
+  <span class="skill-chip"><i class="devicon-vscode-plain"></i>VS Code</span>
+  <span class="skill-chip"><i class="devicon-latex-original"></i>LaTeX</span>
+  <span class="skill-chip"><i class="bi bi-tags"></i>Label Studio</span>
+  <span class="skill-chip"><i class="bi bi-file-earmark-spreadsheet"></i>Microsoft Excel</span>
+- **Data Science & Analytics:** Predictive modeling, time series forecasting, spatial analysis, clustering and segmentation, statistical inference, financial analytics, data wrangling
+- **Business Intelligence:** Power BI, dashboard prototyping, data storytelling
+- **Research Skills:** Experimental design, data collection, exploratory data analysis, statistical reporting
+:::
+
+### Honors and Awards
+
+::: {.award-list}
+- **Poster Presentation Competition Winner** — *2025 Mathematical Society of the Philippines Annual Convention, May 2025*  
+  Selected as one of the winners for presenting key results from my MS Statistics thesis: *A Bayesian Dynamic Spatiotemporal Model with Advection-Diffusion Motivation for Short-Term Probabilistic Forecasting of Short-wave Radiation Fields.*
+
+- **Best Master's Thesis (Statistics)** — *Mindanao State University - Iligan Institute of Technology, June 2025*  
+  Awarded Best Master's Thesis in Statistics for *A Bayesian Dynamic Spatiotemporal Model for Short-Term Probabilistic Forecasting of Solar Radiation Fields.*
+
+- **Magna Cum Laude** — *Mindanao State University - Iligan Institute of Technology, July 2023*  
+  Graduated with high academic distinction in BS Statistics.
+
+- **DOST-SEI Scholastic Completion in Science and Technology Award** — *Department of Science and Technology - Science Education Institute, July 2023*  
+  Recognized for outstanding academic performance and successful completion of the DOST merit scholarship program.
+
+- **Best Thesis Award** — *Mindanao State University - Iligan Institute of Technology, July 2023*  
+  Awarded for the undergraduate thesis *A Predictive Analytics and Segmentation Approach to Student Admission Profiling*, which was implemented by the university to improve student admissions.
+:::
+
+### Volunteer Experience
+
+::: {.resume-entry}
+#### Volunteer Python and SQL Tutor
+**Statistics and Mathematics Society, MSU-IIT** | *April 2022 - June 2022*
+
+- Conducted tutoring sessions for undergraduate students on Python programming and SQL.
+- Designed interactive tutorials and hands-on exercises to support practical learning.
+- Contributed to making technical concepts more accessible through the society's tutorial program.
+:::
+
+:::

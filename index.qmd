@@ -4,139 +4,205 @@ format:
   html:
     page-layout: full
     css: css/index.css
-listing:
-  - id: landing-posts
-    contents: posts
-    type: grid
-    max-items: 3
-    sort: 
-      - "date desc"
-      - "title asc"
-about:
-  id: hero-heading
-  template: trestles
-  image: images/profilepic.jpg
-  links:
-    - icon: medium
-      text: Medium
-      href: https://medium.com/@ajjhonessaromineslacubtan
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/aj-jhones-lacubtan/
-    - icon: github
-      text: Github
-      href: https://github.com/ajhoneslacubtan
 ---
 
-::: {#hero-heading}
-Hi there! I'm AJ Jhones Lacubtan 👋
+::: {.home-shell}
 
-I enjoy turning complex data into clear, actionable insights. With a strong foundation in statistical modeling and machine learning, I specialize in advanced data analysis, predictive modeling, and data mining.
-
-With a solid background in research consulting and collaborative projects across various industries, I bring a wealth of knowledge and a unique perspective to each project. [Learn more about my journey and work](resume.qmd).
-
-#### Education
-
-**Mindanao State University - Iligan Institute of Technology**\
-*MS Statistics* \| August 2023 - Present
-
-**Mindanao State University - Iligan Institute of Technology**\
-*BS Statistics, Magna Cum Laude* \| August 2019 - July 2023
+::: {.hero-grid}
+::: {.hero-copy}
+::: {.eyebrow}
+Data Scientist & Statistician
 :::
 
-:::::::::: text-center
-## AREAS OF INTEREST
+# I turn messy data into decisions people can act on.
 
-::::::::: grid
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-graph-up" style="font-size: 2rem;"></i>
+I build analytics systems, statistical models, dashboards, and research workflows for teams that need clarity from complex data. My work spans computer vision analytics, market segmentation, predictive modeling, statistical validation, and data storytelling.
 
-#### Statistical Analysis
-
-Specializing in advanced statistical techniques and data interpretation.
+::: {.hero-actions}
+[View Resume](resume.qmd){.primary-action}
+[See Projects](projects.qmd){.secondary-action}
+:::
 :::
 
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-cpu" style="font-size: 2rem;"></i>
+::: {.hero-card}
+![](images/profilepic.jpg){.hero-photo fig-alt="Portrait of AJ Jhones Lacubtan"}
 
-#### Machine Learning
-
-Developing and implementing intelligent algorithms and models.
+::: {.hero-card-body}
+::: {.status-pill}
+Currently
 :::
 
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-clock-history" style="font-size: 2rem;"></i>
+**Data Scientist at meldCX**  
+Analytics for computer vision products across retail, QSR, and banking use cases.
 
-#### Spatiotemporal Analysis
-
-Analyzing data across time and space for predictive insights.
+**Quantitative Researcher**  
+Researching quantitative and algorithmic trading strategies for crypto markets.
+:::
+:::
 :::
 
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-gear" style="font-size: 2rem;"></i>
-
-#### Data Automation
-
-Streamlining data processes for efficiency and accuracy.
+::: {.signal-strip}
+::: {.signal}
+**MS Statistics**  
+Bayesian spatiotemporal modeling
 :::
 
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-chat-dots" style="font-size: 2rem;"></i>
-
-#### NLP
-
-Extracting insights from text data for enhanced understanding.
+::: {.signal}
+**Co-founder**  
+Stat IQ research consulting
 :::
 
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-bar-chart" style="font-size: 2rem;"></i>
-
-#### Data Visualization
-
-Creating compelling visual representations of data to uncover insights.
-:::
-:::::::::
-::::::::::
-
-::: text-center
-## PROJECTS
+::: {.signal}
+**Quant Research**  
+Algorithmic crypto trading
 :::
 
-::: {#landing-posts}
+::: {.signal}
+**Builder**  
+Python, R, SQL, dashboards
+:::
 :::
 
-::::::: text-center
-## SERVICES
+## What I Do
 
-*Let me help you make better use of your data.*
+::: {.capability-grid}
+::: {.capability-card}
+<i class="bi bi-camera-video"></i>
 
-:::::: grid
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-bar-chart-line" style="font-size: 3rem;"></i>
+### Computer Vision Analytics
 
-#### Data Analysis and Statistical Consulting
-
-Offering comprehensive data analysis and statistical consulting to help you make data-driven decisions.
+Transform raw detection events into client-facing metrics, KPI logic, dashboards, and insight narratives.
 :::
 
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-cpu" style="font-size: 3rem;"></i>
+::: {.capability-card}
+<i class="bi bi-diagram-3"></i>
 
-#### Machine Learning and Predictive Modeling
+### Statistical Modeling
 
-Developing custom machine learning models and predictive algorithms to forecast trends and optimize operations.
+Design rigorous methods for forecasting, segmentation, validation, experiments, and research-grade inference.
 :::
 
-::: {.g-col-6 .g-col-md-4 .interest}
-<i class="bi bi-graph-up" style="font-size: 3rem;"></i>
+::: {.capability-card}
+<i class="bi bi-speedometer2"></i>
 
-#### Data Visualization and Reporting
+### Dashboards & Decision Tools
 
-Creating interactive and insightful data visualizations and reports to clearly communicate findings.
+Build interactive reporting workflows that connect technical analysis to operational and strategic decisions.
 :::
-::::::
 
-## CONTACT {#contact}
+::: {.capability-card}
+<i class="bi bi-chat-square-text"></i>
 
-I'd love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out. Send me an email at [ajlacubtan\@gmail.com](mailto:ajlacubtan@gmail.com) or message me at [LinkedIn](https://www.linkedin.com/in/aj-jhones-lacubtan/).
-:::::::
+### Research Consulting
+
+Help teams shape research questions, sampling plans, survey designs, statistical tests, and stakeholder-ready reports.
+:::
+:::
+
+## Featured Work
+
+::: {.featured-work}
+::: {.feature-card .feature-card-primary}
+::: {.feature-label}
+Project
+:::
+
+### [AD-GEnKS Adaptive MCMC](https://github.com/ajhoneslacubtan/AD-GEnKS-AdaptiveMCMC)
+
+Implemented adaptive MCMC workflows for Bayesian dynamic spatiotemporal modeling, supporting probabilistic forecasting of solar radiation fields.
+
+::: {.tool-row}
+`R` `Bayesian Modeling` `MCMC` `Spatiotemporal Forecasting`
+:::
+:::
+
+::: {.feature-card}
+::: {.feature-label}
+Research
+:::
+
+### [COVID-19 Vaccine Sentiment Analysis](https://github.com/ajhoneslacubtan/covidvaxsentimentph)
+
+Developed deep learning sentiment models for Philippine vaccine discourse using scraped and labeled Twitter and Reddit data.
+
+::: {.tool-row}
+`LSTM` `CNN` `Word2Vec` `Label Studio`
+:::
+:::
+:::
+
+::: {.text-center}
+### Visual Portfolio
+:::
+
+::: {.viz-preview}
+::: {.viz-copy}
+#### [Data Visualization Portfolio](projects/data-visualizations/index.qmd)
+
+A curated collection of visual storytelling work across income inequality, vaccination rollout, climate patterns, voter demographics, and exploratory statistical graphics.
+
+[View Full Portfolio](projects/data-visualizations/index.qmd){.secondary-action}
+:::
+
+::: {.viz-gallery}
+<figure class="viz-tile">
+  <img src="projects/data-visualizations/images/box-plots.jpg" alt="Regional income distribution box plot visualization">
+</figure>
+<figure class="viz-tile">
+  <img src="projects/data-visualizations/images/ridge-plot.jpg" alt="Ridgeline temperature distribution visualization">
+</figure>
+<figure class="viz-tile">
+  <img src="projects/data-visualizations/images/2d-kde-abstract.jpg" alt="Abstract two-dimensional KDE contour visualization">
+</figure>
+<figure class="viz-tile">
+  <img src="projects/data-visualizations/images/scatter-kde.jpg" alt="Height-weight scatter plot with KDE visualization">
+</figure>
+:::
+:::
+
+## How I Can Help
+
+::: {.service-band}
+::: {.service-intro}
+I work best when the question is messy, the data is imperfect, and the output still needs to be useful for real decisions.
+:::
+
+::: {.service-flow}
+::: {.service-step}
+**You have messy data**  
+I design reliable metrics, clean analytical workflows, and validation checks.
+:::
+
+::: {.service-step}
+**You need a model**  
+I build forecasting, segmentation, and predictive workflows with defensible evaluation.
+:::
+
+::: {.service-step}
+**You need stakeholder buy-in**  
+I turn findings into dashboards, visual narratives, and decision-ready reports.
+:::
+
+::: {.service-step}
+**You need research rigor**  
+I structure hypotheses, sampling plans, statistical tests, and validation studies.
+:::
+:::
+
+:::
+
+::: {#contact .contact-card}
+::: {.contact-copy}
+## Working on a data problem?
+
+If you need a model, dashboard, research design, or a clearer way to communicate findings, reach out.
+:::
+
+::: {.contact-actions}
+[Email Me](mailto:ajlacubtan@gmail.com){.primary-action}
+[LinkedIn](https://www.linkedin.com/in/aj-jhones-lacubtan/){.secondary-action}
+[GitHub](https://github.com/ajhoneslacubtan){.secondary-action}
+:::
+:::
+
+:::

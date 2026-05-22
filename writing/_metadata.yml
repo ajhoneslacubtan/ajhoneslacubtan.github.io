@@ -1,0 +1,4 @@
+# options specified here will apply to all writing posts in this folder
+
+freeze: true
+title-block-banner: true

@@ -1,0 +1,90 @@
+---
+title: "Writing"
+format:
+  html:
+    css: css/writing.css
+listing:
+  contents: writing
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+---
+
+::: {.writing-shell}
+
+::: {.writing-hero}
+::: {.writing-kicker}
+Field Notes
+:::
+
+# Writing about uncertainty, evidence, and applied data work.
+
+Short essays and technical walkthroughs on Bayesian modeling, forecasting, visualization, research design, and quantitative systems. The goal is to make statistical thinking useful without hiding the assumptions.
+:::
+
+::: {.writing-feature}
+::: {.writing-feature-copy}
+::: {.writing-label}
+Latest Essay
+:::
+
+## [Forecasting Uncertainty: Why Prediction Intervals Matter](writing/forecasting-uncertainty/index.qmd)
+
+A Bayesian walkthrough using the classic AirPassengers dataset to show why forecasts should be treated as distributions, not single-number guesses.
+
+::: {.writing-meta-row}
+<span>Bayesian modeling</span>
+<span>Forecasting</span>
+<span>Prediction intervals</span>
+:::
+
+[Read the essay](writing/forecasting-uncertainty/index.qmd){.writing-action}
+:::
+
+::: {.writing-feature-visual}
+<div class="interval-card">
+  <span class="axis-label top">uncertainty</span>
+  <div class="interval-band interval-band-wide"></div>
+  <div class="interval-band interval-band-mid"></div>
+  <div class="forecast-line"></div>
+  <div class="forecast-dot dot-one"></div>
+  <div class="forecast-dot dot-two"></div>
+  <div class="forecast-dot dot-three"></div>
+  <span class="axis-label bottom">forecast horizon</span>
+</div>
+:::
+:::
+
+::: {.writing-lanes}
+::: {.writing-lane}
+### Bayesian Modeling
+
+Priors, likelihoods, posterior predictive checks, and practical uncertainty communication.
+:::
+
+::: {.writing-lane}
+### Quantitative Research
+
+Study design, validation, measurement, and translating statistical results into decisions.
+:::
+
+::: {.writing-lane}
+### Data Visualization
+
+Charts as analytical tools: structure, comparison, uncertainty, and visual storytelling.
+:::
+:::
+
+## Essay Index
+
+::: {.writing-index-intro}
+All writing entries, newest first.
+:::
+
+::: {#listing-writing}
+:::
+
+:::

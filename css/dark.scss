@@ -1,46 +1,46 @@
 /*-- scss:defaults --*/
-/* Primary and Accent Colors */
-$primary: #54B689; // Fresh green used for primary elements
-$secondary: #4F4F4F; // Dark gray used for secondary text or less prominent elements
+$primary: #6ed0a0;
+$secondary: #b8c2c8;
 
-/* Background Colors */
-$body-bg: #121820;
-$content-bg: #121820;
-$footer-bg: #121820;
+$body-bg: #111820;
+$content-bg: #111820;
+$footer-bg: #111820;
 
-/* Text Colors */
-$body-color: #b8babd;
-$text-muted: #f3f3f4;
+$body-color: #b8c2c8;
+$text-muted: #95a2aa;
 
-/* Navbar Specific */
-$navbar-bg: #202a39;
-$navbar-fg: #bdc0c4;
-$navbar-hl: $primary;
+$navbar-bg: #171f2a;
+$navbar-fg: #d7dfde;
+$navbar-hl: #6ed0a0;
 
-/* Link and Button Colors */
-$link-color: $primary;
+$link-color: #7ad9ad;
+$link-hover-color: #9be7c1;
 
-/* Custom styles for headings and other UI elements */
 h1, h2, h3, h4, h5, h6 {
-  color: #f3f3f4;
+  color: #f3f7f5;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(110, 208, 160, 0.14);
 }
 
 .card {
-  background: #171e28 !important;
+  background: #171f2a !important;
 }
 
 .interest:hover {
-  transform: scale(1.05); /* Slight scale to highlight on hover */
-  background-color: #171e28; /* Light background on hover to enhance focus */
+  transform: scale(1.03);
+  background-color: rgba(110, 208, 160, 0.1);
 }
 
-.navbar-title, .quarto-title h1 {
-  color: $primary;
+.navbar-title,
+.quarto-title h1 {
+  color: #f3f7f5;
 }
 
 .navbar-brand > img {
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   padding: 12px 12px;
   background: url("images/favicon/apple-touch-icon2.svg");
   background-size: contain;

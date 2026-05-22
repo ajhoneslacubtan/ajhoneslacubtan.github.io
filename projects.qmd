@@ -1,13 +1,70 @@
 ---
 title: "Projects"
+format:
+  html:
+    css: css/projects.css
 listing: 
-  contents: posts
+  contents: projects
   sort: "date desc"
   type: default
   categories: true
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
 ---
 
+::: {.projects-shell}
+
+::: {.projects-hero}
+::: {.eyebrow}
+Portfolio
+:::
+
+# Projects that turn analysis into usable evidence.
+
+These projects highlight the parts of data work I care about most: clear framing, defensible methods, careful validation, and outputs that communicate something useful.
+:::
+
+::: {.project-feature}
+::: {.feature-copy}
+::: {.feature-label}
+Featured Project
+:::
+
+## [Data Visualization Portfolio](projects/data-visualizations/index.qmd)
+
+A curated set of visual stories using Python, R, Matplotlib, Seaborn, and ggplot2. The collection covers income inequality, climate patterns, vaccine rollout, voter demographics, statistical density, and exploratory visual design.
+
+::: {.tool-row}
+`Python` `R` `matplotlib` `seaborn` `ggplot2`
+:::
+
+[View Project](projects/data-visualizations/index.qmd){.primary-action}
+:::
+
+::: {.feature-gallery}
+<figure>
+  <img src="projects/data-visualizations/images/box-plots.jpg" alt="Regional income distribution box plot visualization">
+</figure>
+<figure>
+  <img src="projects/data-visualizations/images/ridge-plot.jpg" alt="Ridgeline temperature distribution visualization">
+</figure>
+<figure>
+  <img src="projects/data-visualizations/images/scatter-kde.jpg" alt="Height-weight scatter plot with KDE visualization">
+</figure>
+<figure>
+  <img src="projects/data-visualizations/images/2d-kde-abstract.jpg" alt="Abstract two-dimensional KDE contour visualization">
+</figure>
+:::
+:::
+
+## Project Index
+
+::: {.project-index-intro}
+Full project writeups and portfolio entries.
+:::
+
+::: {#listing-projects}
+:::
+
+:::

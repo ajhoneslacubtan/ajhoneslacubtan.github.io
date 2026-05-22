@@ -14,6 +14,8 @@ website:
         href: index.qmd
       - text: Projects
         href: projects.qmd
+      - text: Writing
+        href: writing.qmd
       - text: Resume
         href: resume.qmd
     right:
@@ -23,15 +25,18 @@ website:
         href: https://www.linkedin.com/in/aj-jhones-lacubtan/
       - icon: github
         href: https://github.com/ajhoneslacubtan
-  page-footer: 
-    left: "© 2024 AJ Jhones Lacubtan" 
+  page-footer:
+    left: "© 2026 AJ Jhones Lacubtan"
     right: 
       - icon: medium
         href: https://medium.com/@ajjhonessaromineslacubtan
+        aria-label: Medium
       - icon: linkedin
         href: https://www.linkedin.com/in/aj-jhones-lacubtan/
+        aria-label: LinkedIn
       - icon: github
         href: https://github.com/ajhoneslacubtan
+        aria-label: GitHub
   cookie-consent:
     type: express
     style: simple
