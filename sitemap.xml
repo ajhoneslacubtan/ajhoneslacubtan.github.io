@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ajhoneslacubtan.github.io/posts/data-visualizations/index.html</loc>
-    <lastmod>2025-06-04T14:06:52.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ajhoneslacubtan.github.io/index.html</loc>
-    <lastmod>2025-06-04T14:06:52.566Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ajhoneslacubtan.github.io/projects.html</loc>
-    <lastmod>2025-06-04T14:06:52.579Z</lastmod>
-  </url>
-  <url>
     <loc>https://ajhoneslacubtan.github.io/about.html</loc>
-    <lastmod>2025-06-04T14:06:52.560Z</lastmod>
+    <lastmod>2026-05-22T05:23:21.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajhoneslacubtan.github.io/writing.html</loc>
+    <lastmod>2026-05-22T05:23:21.267Z</lastmod>
   </url>
   <url>
     <loc>https://ajhoneslacubtan.github.io/resume.html</loc>
-    <lastmod>2025-06-04T14:06:52.580Z</lastmod>
+    <lastmod>2026-05-22T05:23:21.267Z</lastmod>
   </url>
   <url>
-    <loc>https://ajhoneslacubtan.github.io/posts/dynamic-pricing-ecommerce/index.html</loc>
-    <lastmod>2025-06-04T14:06:52.579Z</lastmod>
+    <loc>https://ajhoneslacubtan.github.io/projects/data-visualizations/index.html</loc>
+    <lastmod>2026-05-22T05:23:21.266Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajhoneslacubtan.github.io/index.html</loc>
+    <lastmod>2026-05-22T05:23:21.257Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajhoneslacubtan.github.io/writing/forecasting-uncertainty/index.html</loc>
+    <lastmod>2026-05-22T05:23:21.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajhoneslacubtan.github.io/projects.html</loc>
+    <lastmod>2026-05-22T05:23:21.258Z</lastmod>
   </url>
 </urlset>

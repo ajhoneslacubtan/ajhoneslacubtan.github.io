@@ -3,6 +3,28 @@
 
 /* Custom Styles for Quarto Portfolio */
 
+:root {
+  --site-accent: #54b689;
+  --site-accent-strong: #2f8f6b;
+  --site-ink: #20384b;
+  --site-muted: #667482;
+  --site-bg: #f7fbf8;
+  --site-surface: rgba(255, 255, 255, 0.88);
+  --site-border: rgba(32, 56, 75, 0.12);
+  --site-shadow: 0 24px 70px rgba(32, 56, 75, 0.1);
+}
+
+.quarto-dark {
+  --site-accent: #6ed0a0;
+  --site-accent-strong: #7ad9ad;
+  --site-ink: #f3f7f5;
+  --site-muted: #b8c2c8;
+  --site-bg: #111820;
+  --site-surface: rgba(23, 30, 40, 0.9);
+  --site-border: rgba(110, 208, 160, 0.22);
+  --site-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -20,7 +42,71 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
-body, h1, .footer {
+a {
+  color: var(--site-accent-strong);
+}
+
+a:hover {
+  color: var(--site-accent);
+}
+
+body, h1 {
   margin: 0;
   padding: 0;
+}
+
+.nav-footer {
+  margin: 3rem auto 0;
+  padding: 1.1rem clamp(1rem, 3vw, 2rem);
+  border-top: 1px solid var(--site-border);
+  background:
+    radial-gradient(circle at 10% 20%, rgba(84, 182, 137, 0.14), transparent 24%),
+    var(--site-bg);
+  color: var(--site-muted);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.quarto-dark .nav-footer {
+  background:
+    radial-gradient(circle at 10% 20%, rgba(110, 208, 160, 0.12), transparent 24%),
+    var(--site-bg);
+}
+
+.nav-footer-left,
+.nav-footer-center,
+.nav-footer-right {
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.nav-footer-center {
+  color: var(--site-ink);
+  font-weight: 700;
+  text-align: center;
+}
+
+.nav-footer a {
+  color: var(--site-muted);
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  color: var(--site-accent-strong);
+}
+
+.nav-footer .bi {
+  font-size: 1.05rem;
+}
+
+@media (max-width: 720px) {
+  .nav-footer {
+    gap: 0.75rem;
+    text-align: center;
+  }
+
+  .nav-footer-left,
+  .nav-footer-center,
+  .nav-footer-right {
+    margin: 0.15rem 0;
+  }
 }

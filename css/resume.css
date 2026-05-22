@@ -1,0 +1,264 @@
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css");
+
+#title-block-header {
+  display: none;
+}
+
+main.content {
+  padding-top: 2.5rem;
+}
+
+.resume-shell {
+  --resume-accent: var(--site-accent);
+  --resume-accent-strong: var(--site-accent-strong);
+  --resume-ink: var(--site-ink);
+  --resume-muted: var(--site-muted);
+  --resume-card: var(--site-surface);
+  --resume-border: var(--site-border);
+  --resume-shadow: var(--site-shadow);
+  max-width: 1080px;
+  margin: 0 auto 4rem;
+  padding: clamp(1rem, 2vw, 2rem);
+}
+
+.resume-hero {
+  overflow: hidden;
+  border: 1px solid var(--resume-border);
+  border-radius: 28px;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  background:
+    radial-gradient(circle at 85% 15%, rgba(84, 182, 137, 0.22), transparent 32%),
+    linear-gradient(135deg, rgba(84, 182, 137, 0.14), rgba(32, 56, 75, 0.04));
+  box-shadow: var(--resume-shadow);
+}
+
+.resume-kicker {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 1rem;
+  padding: 0.24rem 0.62rem 0.18rem;
+  border: 1px solid rgba(84, 182, 137, 0.35);
+  border-radius: 999px;
+  color: var(--resume-accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.05;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.resume-kicker p {
+  margin: 0;
+}
+
+.resume-hero h1 {
+  max-width: 760px;
+  margin: 0;
+  color: var(--resume-ink);
+  font-size: clamp(2.6rem, 7vw, 5.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.6rem;
+}
+
+.resume-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid var(--resume-border);
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  background: var(--resume-card);
+  color: var(--resume-ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resume-button i {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.resume-button:hover {
+  background: var(--resume-accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+.resume-shell h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--resume-ink);
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  letter-spacing: -0.03em;
+}
+
+.resume-summary,
+.resume-entry,
+.resume-card,
+.award-list {
+  border: 1px solid var(--resume-border);
+  border-radius: 22px;
+  background: var(--resume-card);
+  box-shadow: 0 12px 34px rgba(32, 56, 75, 0.06);
+}
+
+.resume-summary {
+  padding: clamp(1.25rem, 2vw, 1.75rem);
+  color: var(--resume-muted);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.resume-timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.resume-entry,
+.resume-card,
+.award-list {
+  padding: clamp(1.1rem, 2vw, 1.5rem);
+}
+
+.resume-entry h4,
+.resume-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  color: var(--resume-ink);
+  font-size: 1.1rem;
+}
+
+.resume-entry p,
+.resume-card p {
+  margin-bottom: 0.75rem;
+  color: var(--resume-muted);
+}
+
+.education-card {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+}
+
+.education-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid rgba(84, 182, 137, 0.28);
+  border-radius: 50%;
+  background: rgba(84, 182, 137, 0.1);
+  color: var(--resume-accent);
+}
+
+.education-icon i {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.education-copy {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.education-copy strong {
+  color: var(--resume-ink);
+}
+
+.education-copy em {
+  color: var(--resume-muted);
+}
+
+.resume-entry ul,
+.resume-card ul,
+.award-list ul,
+.skill-grid ul {
+  margin-bottom: 0;
+}
+
+.resume-entry li,
+.resume-card li,
+.award-list li {
+  margin-bottom: 0.45rem;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.skill-grid ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.skill-grid li {
+  border: 1px solid var(--resume-border);
+  border-radius: 18px;
+  padding: 0.9rem 1rem;
+  background: var(--resume-card);
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.45rem 0.4rem 0 0;
+  padding: 0.42rem 0.68rem;
+  border: 1px solid var(--resume-border);
+  border-radius: 999px;
+  background: rgba(84, 182, 137, 0.08);
+  color: var(--resume-ink);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.skill-chip i {
+  color: var(--resume-accent);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.award-list li {
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--resume-border);
+}
+
+.award-list li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  main.content {
+    padding-top: 1rem;
+  }
+
+  .resume-shell {
+    padding-inline: 0.75rem;
+  }
+
+  .resume-grid,
+  .skill-grid ul {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-hero {
+    border-radius: 22px;
+  }
+}
