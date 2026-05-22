@@ -1,8 +1,12 @@
 project:
   type: website
+  resources:
+    - robots.txt
 
 website:
   title: "AJ Lacubtan"
+  site-url: "https://ajhoneslacubtan.github.io"
+  description: "Portfolio of AJ Jhones Lacubtan, a data scientist and statistician working on analytics, Bayesian modeling, forecasting, visualization, and quantitative research."
   favicon: images/favicon/favicon-32x32.png
   search: 
     location: navbar
@@ -51,3 +55,5 @@ format:
       dark: [darkly, css/dark.scss]
     css: css/styles.css
     code-fold: show
+    open-graph: true
+    twitter-card: true
