@@ -31,17 +31,17 @@ Short essays and technical walkthroughs on Bayesian modeling, forecasting, visua
 Latest Essay
 :::
 
-## [Forecasting Uncertainty: Why Prediction Intervals Matter](writing/forecasting-uncertainty/index.qmd)
+## [Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation](writing/bayesian-spatiotemporal-solar-radiation/index.qmd)
 
-A Bayesian walkthrough using the classic AirPassengers dataset to show why forecasts should be treated as distributions, not single-number guesses.
+Lessons from building a Bayesian dynamic spatiotemporal model for short-term solar radiation forecasting over Mindanao.
 
 ::: {.writing-meta-row}
 <span>Bayesian modeling</span>
-<span>Forecasting</span>
-<span>Prediction intervals</span>
+<span>Spatiotemporal statistics</span>
+<span>Solar forecasting</span>
 :::
 
-[Read the essay](writing/forecasting-uncertainty/index.qmd){.writing-action}
+[Read the essay](writing/bayesian-spatiotemporal-solar-radiation/index.qmd){.writing-action}
 :::
 
 ::: {.writing-feature-visual}
