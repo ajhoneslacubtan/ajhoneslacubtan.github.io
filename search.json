@@ -1,38 +1,31 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "writing.html",
-    "href": "writing.html",
-    "title": "Writing",
-    "section": "",
-    "text": "Field Notes\n\n\n\nShort essays and technical walkthroughs on Bayesian modeling, forecasting, visualization, research design, and quantitative systems. The goal is to make statistical thinking useful without hiding the assumptions.\n\n\n\n\n\nLatest Essay\n\n\n\nA Bayesian walkthrough using the classic AirPassengers dataset to show why forecasts should be treated as distributions, not single-number guesses.\n\nBayesian modeling Forecasting Prediction intervals\n\nRead the essay\n\n\n\n\nuncertainty\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nforecast horizon\n\n\n\n\n\n\nPriors, likelihoods, posterior predictive checks, and practical uncertainty communication.\n\n\n\nStudy design, validation, measurement, and translating statistical results into decisions.\n\n\n\nCharts as analytical tools: structure, comparison, uncertainty, and visual storytelling.\n\n\n\n\n\nAll writing entries, newest first."
-  },
-  {
-    "objectID": "writing.html#forecasting-uncertainty-why-prediction-intervals-matter",
-    "href": "writing.html#forecasting-uncertainty-why-prediction-intervals-matter",
-    "title": "Writing",
-    "section": "",
-    "text": "A Bayesian walkthrough using the classic AirPassengers dataset to show why forecasts should be treated as distributions, not single-number guesses.\n\nBayesian modeling Forecasting Prediction intervals\n\nRead the essay"
-  },
-  {
-    "objectID": "writing.html#essay-index",
-    "href": "writing.html#essay-index",
-    "title": "Writing",
-    "section": "",
-    "text": "All writing entries, newest first."
-  },
-  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
     "section": "",
     "text": "Data Scientist & Statistician\n\n\nAJ Jhones S. Lacubtan\n\nEmail LinkedIn GitHub\n\n\n\n\nProfessional Summary\n\nData Scientist and Statistician with experience delivering analytics solutions across retail, QSR, banking, academic research, and industry consulting. Skilled in translating raw data and complex business problems into client-facing metrics, dashboards, and actionable insights. Experienced in computer vision analytics, data integrity testing, predictive modeling, market analytics, experimental design, and statistical validation. Co-founder of Stat IQ, where I support clients in designing rigorous research methodologies and interpreting results for decision-making. Proficient in Python, R, SQL, and dashboarding tools, with a strong focus on analytical rigor, business relevance, and clear stakeholder communication.\n\n\n\nExperience\n\n\nData Scientist\nmeldCX Philippines Inc. (Cagayan de Oro City, Philippines) | July 2025 - Present\n\nDelivered actionable insights for retail, QSR, and banking clients using analytics from computer vision-based products and solutions.\nDefined client-facing metrics and designed dashboards aligned with business objectives, operational priorities, and reporting needs.\nTranslated raw computer vision events into structured analytics outputs for client reporting and insight generation.\nLed data integrity checks, KPI validation, and testing to ensure dashboard accuracy, consistency, and production readiness.\nCollaborated with product and engineering teams to identify analytics requirements, investigate data issues, and improve insight delivery.\n\n\n\nCo-Founder | Statistician\nStat IQ (Remote) | June 2024 - Present\n\nSupport academic research and industry projects by guiding clients through experiment design, hypothesis formulation, statistical test selection, data collection protocols, survey design, sampling strategies, and validation studies.\nTranslate research questions into statistically rigorous frameworks suited for peer or stakeholder review, including studies related to compensation, engagement, market behavior, and pricing.\n\n\n\nData Science Consultant\nUnilab Inc. (Remote) | September 2024 - December 2024\n\nConducted a market segmentation study using K-means clustering and supply-demand analysis to optimize product positioning.\nDesigned and deployed a stakeholder-facing dashboard to support distribution and sales teams.\nCommunicated findings through business presentations, driving alignment between analytics insights and strategic planning.\n\n\n\nData Science Intern\nPremier Research Institute of Science and Mathematics, MSU-IIT (Iligan City, Philippines) | June 2022 - June 2023\n\nCo-developed a web-based recommender tool for student profiling and academic placement.\nTrained supervised models using scikit-learn and neural networks for behavioral predictions.\nHandled model validation and deployment pipeline setup for real-time recommendation.\n\n\n\n\n\nEducation\n\n\n\n\n\nMaster of Science in StatisticsMindanao State University - Iligan Institute of TechnologyAugust 2023 - June 2025\n\n\n\n\n\n\n\nBachelor of Science in StatisticsMindanao State University - Iligan Institute of TechnologyAugust 2019 - July 2023\n\n\n\n\n\n\nSelected Projects\n\n\nAD-GEnKS Adaptive MCMC\nR, Bayesian modeling, adaptive MCMC, spatiotemporal forecasting\n\nImplemented adaptive MCMC workflows for Bayesian dynamic spatiotemporal models.\nSupported probabilistic forecasting of solar radiation fields using advection-diffusion motivated model structure.\nDeveloped research code connected to my MS Statistics thesis work on short-term solar radiation forecasting.\n\n\n\nPhilippine COVID-19 Vaccine Sentiment Analysis\nPython, LSTM, Bidirectional LSTM, CNN-LSTM, CNN, Word2Vec, Label Studio | June 2023 - August 2023\n\nDeveloped deep learning sentiment analysis models to classify sentiments in tweets and Reddit posts related to COVID-19 vaccines in the Philippines.\nCollected and labeled data from Twitter and Reddit using scraping tools and Label Studio.\nApplied Word2Vec for feature extraction using a pre-trained model from the Filipino Word Embeddings repository.\nBuilt a reproducible pipeline for preprocessing, model training, and evaluation.\n\n\n\n\n\nSkills\n\n\nProgramming Languages:\nPython R Julia SQL\nVisualization & Dashboards:\nJupyter matplotlib Plotly Power BI Streamlit Quarto ggplot2 Taipy\nWeb & Backend Technologies:\nFlask HTML CSS JavaScript\nDatabase Systems:\nMySQL PostgreSQL SQLite MongoDB TimescaleDB Snowflake\nCloud & DevOps Tools:\nAWS Azure Git GitHub Docker MLflow Paperspace\nSpecialized Tools:\nVS Code LaTeX Label Studio Microsoft Excel\nData Science & Analytics: Predictive modeling, time series forecasting, spatial analysis, clustering and segmentation, statistical inference, financial analytics, data wrangling\nBusiness Intelligence: Power BI, dashboard prototyping, data storytelling\nResearch Skills: Experimental design, data collection, exploratory data analysis, statistical reporting\n\n\n\n\nHonors and Awards\n\n\nPoster Presentation Competition Winner — 2025 Mathematical Society of the Philippines Annual Convention, May 2025\nSelected as one of the winners for presenting key results from my MS Statistics thesis: A Bayesian Dynamic Spatiotemporal Model with Advection-Diffusion Motivation for Short-Term Probabilistic Forecasting of Short-wave Radiation Fields.\nBest Master’s Thesis (Statistics) — Mindanao State University - Iligan Institute of Technology, June 2025\nAwarded Best Master’s Thesis in Statistics for A Bayesian Dynamic Spatiotemporal Model for Short-Term Probabilistic Forecasting of Solar Radiation Fields.\nMagna Cum Laude — Mindanao State University - Iligan Institute of Technology, July 2023\nGraduated with high academic distinction in BS Statistics.\nDOST-SEI Scholastic Completion in Science and Technology Award — Department of Science and Technology - Science Education Institute, July 2023\nRecognized for outstanding academic performance and successful completion of the DOST merit scholarship program.\nBest Thesis Award — Mindanao State University - Iligan Institute of Technology, July 2023\nAwarded for the undergraduate thesis A Predictive Analytics and Segmentation Approach to Student Admission Profiling, which was implemented by the university to improve student admissions.\n\n\n\n\nVolunteer Experience\n\nVolunteer Python and SQL Tutor\nStatistics and Mathematics Society, MSU-IIT | April 2022 - June 2022\n\nConducted tutoring sessions for undergraduate students on Python programming and SQL.\nDesigned interactive tutorials and hands-on exercises to support practical learning.\nContributed to making technical concepts more accessible through the society’s tutorial program."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Portfolio\n\n\n\nThese projects highlight the parts of data work I care about most: clear framing, defensible methods, careful validation, and outputs that communicate something useful.\n\n\n\n\n\nFeatured Project\n\n\n\nA curated set of visual stories using Python, R, Matplotlib, Seaborn, and ggplot2. The collection covers income inequality, climate patterns, vaccine rollout, voter demographics, statistical density, and exploratory visual design.\n\nPython R matplotlib seaborn ggplot2\n\nView Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFull project writeups and portfolio entries."
+  },
+  {
+    "objectID": "projects.html#data-visualization-portfolio",
+    "href": "projects.html#data-visualization-portfolio",
+    "title": "Projects",
+    "section": "",
+    "text": "A curated set of visual stories using Python, R, Matplotlib, Seaborn, and ggplot2. The collection covers income inequality, climate patterns, vaccine rollout, voter demographics, statistical density, and exploratory visual design.\n\nPython R matplotlib seaborn ggplot2\n\nView Project"
+  },
+  {
+    "objectID": "projects.html#project-index",
+    "href": "projects.html#project-index",
+    "title": "Projects",
+    "section": "",
+    "text": "Full project writeups and portfolio entries."
   },
   {
     "objectID": "projects/data-visualizations/index.html",
@@ -54,41 +47,6 @@
     "title": "Data Visualization Portfolio",
     "section": "Reflections and Next Steps",
     "text": "Reflections and Next Steps\nCreating these visualizations has reinforced my belief that good data visualization is as much about storytelling as it is about clarity and accuracy. Each chart represents an intentional effort to simplify complexity and to highlight insights that might otherwise remain hidden. By experimenting across multiple visualization techniques and datasets, I’ve deepened my skills in design thinking, statistical interpretation, and audience-focused communication.\n\nLet’s Talk Data Stories\nHave a dataset that deserves to be seen, not just analyzed?\nWhether you’re looking to visualize research findings, tell a story with public data, or enhance stakeholder reports, I’d love to help turn raw numbers into compelling visuals.\nFeel free to email me or explore more of my work on GitHub."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Scientist & Statistician",
-    "section": "",
-    "text": "Data Scientist & Statistician\n\n\n\nI build analytics systems, statistical models, dashboards, and research workflows for teams that need clarity from complex data. My work spans computer vision analytics, market segmentation, predictive modeling, statistical validation, and data storytelling.\n\nView Resume See Projects\n\n\n\n\n\n\n\nCurrently\n\nData Scientist at meldCX\nAnalytics for computer vision products across retail, QSR, and banking use cases.\nQuantitative Researcher\nResearching quantitative and algorithmic trading strategies for crypto markets.\n\n\n\n\n\nMS Statistics\nBayesian spatiotemporal modeling\n\n\nCo-founder\nStat IQ research consulting\n\n\nQuant Research\nAlgorithmic crypto trading\n\n\nBuilder\nPython, R, SQL, dashboards\n\n\n\n\n\n\n\n\n\nTransform raw detection events into client-facing metrics, KPI logic, dashboards, and insight narratives.\n\n\n\n\n\n\nDesign rigorous methods for forecasting, segmentation, validation, experiments, and research-grade inference.\n\n\n\n\n\n\nBuild interactive reporting workflows that connect technical analysis to operational and strategic decisions.\n\n\n\n\n\n\nHelp teams shape research questions, sampling plans, survey designs, statistical tests, and stakeholder-ready reports.\n\n\n\n\n\n\n\n\n\nProject\n\n\n\nImplemented adaptive MCMC workflows for Bayesian dynamic spatiotemporal modeling, supporting probabilistic forecasting of solar radiation fields.\n\nR Bayesian Modeling MCMC Spatiotemporal Forecasting\n\n\n\n\n\nResearch\n\n\n\nDeveloped deep learning sentiment models for Philippine vaccine discourse using scraped and labeled Twitter and Reddit data.\n\nLSTM CNN Word2Vec Label Studio\n\n\n\n\n\n\n\n\n\n\nA curated collection of visual storytelling work across income inequality, vaccination rollout, climate patterns, voter demographics, and exploratory statistical graphics.\nView Full Portfolio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI work best when the question is messy, the data is imperfect, and the output still needs to be useful for real decisions.\n\n\n\nYou have messy data\nI design reliable metrics, clean analytical workflows, and validation checks.\n\n\nYou need a model\nI build forecasting, segmentation, and predictive workflows with defensible evaluation.\n\n\nYou need stakeholder buy-in\nI turn findings into dashboards, visual narratives, and decision-ready reports.\n\n\nYou need research rigor\nI structure hypotheses, sampling plans, statistical tests, and validation studies.\n\n\n\n\n\n\n\nIf you need a model, dashboard, research design, or a clearer way to communicate findings, reach out.\n\n\nEmail Me LinkedIn GitHub"
-  },
-  {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "Data Scientist & Statistician",
-    "section": "",
-    "text": "Transform raw detection events into client-facing metrics, KPI logic, dashboards, and insight narratives.\n\n\n\n\n\n\nDesign rigorous methods for forecasting, segmentation, validation, experiments, and research-grade inference.\n\n\n\n\n\n\nBuild interactive reporting workflows that connect technical analysis to operational and strategic decisions.\n\n\n\n\n\n\nHelp teams shape research questions, sampling plans, survey designs, statistical tests, and stakeholder-ready reports."
-  },
-  {
-    "objectID": "index.html#featured-work",
-    "href": "index.html#featured-work",
-    "title": "Data Scientist & Statistician",
-    "section": "",
-    "text": "Project\n\n\n\nImplemented adaptive MCMC workflows for Bayesian dynamic spatiotemporal modeling, supporting probabilistic forecasting of solar radiation fields.\n\nR Bayesian Modeling MCMC Spatiotemporal Forecasting\n\n\n\n\n\nResearch\n\n\n\nDeveloped deep learning sentiment models for Philippine vaccine discourse using scraped and labeled Twitter and Reddit data.\n\nLSTM CNN Word2Vec Label Studio\n\n\n\n\n\n\n\n\n\n\nA curated collection of visual storytelling work across income inequality, vaccination rollout, climate patterns, voter demographics, and exploratory statistical graphics.\nView Full Portfolio"
-  },
-  {
-    "objectID": "index.html#how-i-can-help",
-    "href": "index.html#how-i-can-help",
-    "title": "Data Scientist & Statistician",
-    "section": "",
-    "text": "I work best when the question is messy, the data is imperfect, and the output still needs to be useful for real decisions.\n\n\n\nYou have messy data\nI design reliable metrics, clean analytical workflows, and validation checks.\n\n\nYou need a model\nI build forecasting, segmentation, and predictive workflows with defensible evaluation.\n\n\nYou need stakeholder buy-in\nI turn findings into dashboards, visual narratives, and decision-ready reports.\n\n\nYou need research rigor\nI structure hypotheses, sampling plans, statistical tests, and validation studies."
-  },
-  {
-    "objectID": "index.html#working-on-a-data-problem",
-    "href": "index.html#working-on-a-data-problem",
-    "title": "Data Scientist & Statistician",
-    "section": "",
-    "text": "If you need a model, dashboard, research design, or a clearer way to communicate findings, reach out."
   },
   {
     "objectID": "writing/forecasting-uncertainty/index.html",
@@ -154,24 +112,143 @@
     "text": "Closing\nBayesian forecasting is not useful because it is fashionable. It is useful when uncertainty is central to the decision and when the model structure is chosen carefully enough to make that uncertainty meaningful.\nIn this example, the Bayesian model gives us more than a forecast line. It gives us a posterior predictive distribution, from which prediction intervals follow naturally.\nThe main idea is simple:\n\nA forecast should not only say what might happen. It should also say how uncertain that forecast is.\n\nThat shift changes forecasting from a single-number exercise into a tool for decision-making under uncertainty."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
     "section": "",
-    "text": "Portfolio\n\n\n\nThese projects highlight the parts of data work I care about most: clear framing, defensible methods, careful validation, and outputs that communicate something useful.\n\n\n\n\n\nFeatured Project\n\n\n\nA curated set of visual stories using Python, R, Matplotlib, Seaborn, and ggplot2. The collection covers income inequality, climate patterns, vaccine rollout, voter demographics, statistical density, and exploratory visual design.\n\nPython R matplotlib seaborn ggplot2\n\nView Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFull project writeups and portfolio entries."
+    "text": "A solar forecast can be wrong in two different ways: it can miss how much sunlight will arrive, or it can miss where the drop will happen.\nFor grid operations, that second mistake matters because cloud shadows move across space, not just through time.\nSolar power forecasting is often described as a time-series problem. That is only partly true. Solar radiation is also a moving spatial field. A cloud shadow does not appear independently at each location. It forms, moves, spreads, weakens, and sometimes disappears. If we forecast each pixel or site separately, we lose the structure that makes the process physically interpretable.\nThat was the main idea behind this project: build a Bayesian dynamic spatiotemporal model for short-term probabilistic forecasting of solar radiation fields.\nThe goal was not just to ask:\nThe more useful question was:\nIn short:\nProject link: AD-GEnKS Adaptive MCMC"
   },
   {
-    "objectID": "projects.html#data-visualization-portfolio",
-    "href": "projects.html#data-visualization-portfolio",
-    "title": "Projects",
-    "section": "",
-    "text": "A curated set of visual stories using Python, R, Matplotlib, Seaborn, and ggplot2. The collection covers income inequality, climate patterns, vaccine rollout, voter demographics, statistical density, and exploratory visual design.\n\nPython R matplotlib seaborn ggplot2\n\nView Project"
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#the-case-study",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#the-case-study",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "The Case Study",
+    "text": "The Case Study\nI worked with Himawari-9 AHI Level-2 short-wave radiation (SWR) v2.1 from JAXA P-Tree over Mindanao, Philippines. The product represents instantaneous downwelling short-wave flux on a horizontal surface, commonly treated as global horizontal irradiance (GHI). The data had a 5 km spatial resolution and 10-minute temporal resolution. Each image covered a grid of:\n124 x 176 = 21,824 spatial cells\nThe real-data experiment used April 4, 2025, with training from 11:00-13:20 PST and evaluation from 13:30-14:20 PST. This is important: the results should be read as a proof of concept on one region and one short validation window, not as a universal benchmark for solar forecasting.\n\n\n\nSample Himawari-9 short-wave radiation field over Mindanao. The spatial variation is largely driven by cloud cover.\n\n\nThe map already shows the core difficulty. Solar radiation is not uniform. Cloud systems create sharp spatial differences, and those differences can change within minutes."
   },
   {
-    "objectID": "projects.html#project-index",
-    "href": "projects.html#project-index",
-    "title": "Projects",
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#raw-sunlight-is-not-always-the-best-modeling-target",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#raw-sunlight-is-not-always-the-best-modeling-target",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "Raw Sunlight Is Not Always the Best Modeling Target",
+    "text": "Raw Sunlight Is Not Always the Best Modeling Target\nThe first obvious target is SWR itself: the estimated incoming solar radiation at the surface, measured in W/m².\nBut raw SWR mixes at least two effects:\n\nThe predictable geometry of the sun, such as time of day and solar angle.\nThe harder part: cloud-driven attenuation.\n\nTo separate these, I also modeled the clear-sky index (CSI):\nCSI = observed SWR / Ineichen-Perez clear-sky GHI\nThe clear-sky irradiance is what we would expect under cloud-free conditions. I computed it using the Ineichen-Perez clear-sky model, with the resulting CSI clipped to a practical range before modeling. Dividing by clear-sky GHI turns the problem into a relative measure: how much of the expected sunlight actually reached the surface?\n\n\n\n\n\n\nObserved SWR: actual satellite-derived short-wave radiation, with lower values where clouds reduce incoming sunlight.\n\n\n\n\n\n\n\nClear-sky GHI: expected radiation under cloud-free conditions, mainly driven by sun angle and terrain.\n\n\n\n\n\n\n\nCSI: observed SWR divided by clear-sky GHI, highlighting cloud-driven attenuation.\n\n\n\n\n\nThis turned out to be one of the most important lessons from the project. Modeling raw radiation forces the model to handle both the daily solar cycle and cloud variability. Modeling CSI removes much of the predictable solar trend, so the model can focus more directly on cloud-driven changes."
+  },
+  {
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#why-i-modeled-a-field-not-independent-pixels",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#why-i-modeled-a-field-not-independent-pixels",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "Why I Modeled a Field, Not Independent Pixels",
+    "text": "Why I Modeled a Field, Not Independent Pixels\nThe model used a Bayesian dynamic spatiotemporal framework. The latent field represented the underlying irradiance or transmissivity pattern, while the satellite data were treated as noisy observations of that field.\nThe process model was motivated by an advection-diffusion idea:\n\nAdvection moves cloud-shadow patterns across the map.\nDiffusion smooths or spreads local variation.\nProcess noise captures changes the model cannot explain.\n\nInstead of starting with the stochastic partial differential equation, the practical intuition is simpler:\nnext field = weighted neighboring pixels + unexplained change\nEach grid cell at the next time step is influenced by its current value and its immediate neighbors: left, right, up, and down. That five-point neighborhood makes the model physically motivated while keeping the computation manageable.\nThe advection parameters should not be interpreted as direct wind measurements. They are better understood as inferred transport proxies: they describe how irradiance or cloud-shadow patterns appear to move in the satellite field."
+  },
+  {
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#why-bayesian",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#why-bayesian",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "Why Bayesian?",
+    "text": "Why Bayesian?\nA deterministic forecast gives one map. A Bayesian forecast gives a distribution of possible maps.\nThat distinction matters because solar planning is a risk problem. Operators do not only need the expected amount of sunlight. They also need to know where the forecast is uncertain and where low irradiance is plausible.\nThe posterior output can be summarized in several ways:\n\nPosterior mean: the model’s best estimate of the latent field.\nPosterior standard deviation: where the model is more or less uncertain.\nPredictive samples: possible future radiation fields.\nThreshold probabilities: for example, the posterior probability that latent CSI falls below 0.5.\n\n\n\n\nPosterior summary of the latent clear-sky index field. Rows show observations, posterior mean, posterior standard deviation, and probability that latent CSI falls below 0.5.\n\n\nThis is the practical advantage of the Bayesian framing. The output is not just a cleaned-up map. It is a map plus a measure of how much trust to place in different parts of that map. This connects directly to a broader point I wrote about in Forecasting Uncertainty: Why Prediction Intervals Matter: a useful forecast should communicate risk, not only an expected value."
+  },
+  {
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#raw-swr-forecasts-worked-but-only-for-short-horizons",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#raw-swr-forecasts-worked-but-only-for-short-horizons",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "Raw SWR Forecasts Worked, But Only for Short Horizons",
+    "text": "Raw SWR Forecasts Worked, But Only for Short Horizons\nThe raw SWR model captured broad spatial patterns and produced reasonable short-term forecasts. But error increased with lead time, especially beyond about 30 minutes.\nThat was expected. Tropical cloud systems can evolve quickly, and a simple linear advection-diffusion structure cannot fully capture cloud formation, dissipation, and nonlinear convective behavior.\n\n\n\nForecast evaluation for the raw SWR model. Errors increased with lead time and were larger near cloud edges and unstable regions.\n\n\nThe direct SWR model was useful mainly at very short horizons. It preserved broad spatial structure, but uncertainty and error grew quickly near cloud boundaries. Quantitatively, its overall error was:\n39,517 W²/m⁴\nand an overall CRPS of about:\n129.1 W/m²\nThose numbers are useful, but the spatial maps are just as important. They show where the model struggled: cloud edges, coastlines, and dynamically changing regions."
+  },
+  {
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#the-main-lesson-csi-made-the-problem-easier",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#the-main-lesson-csi-made-the-problem-easier",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "The Main Lesson: CSI Made the Problem Easier",
+    "text": "The Main Lesson: CSI Made the Problem Easier\nThe CSI model performed better after converting predictions back to the SWR scale for evaluation.\nAcross the tested forecast horizons, CSI-based forecasts achieved roughly:\nMSPE: 27,000-29,000 W²/m⁴\nCRPS: 95-98 W/m²\nThat was substantially better than the direct SWR model in this case study.\n\n\n\nForecast evaluation for the CSI model after converting predictions back to the SWR scale. Compared with direct SWR modeling, the CSI workflow produced lower MSPE and CRPS in this case study.\n\n\nThe reason is not that CSI is magically better for every solar forecasting problem. The more defensible lesson is narrower:\n\nIn this experiment, CSI normalization made the target more stable by removing much of the deterministic solar-angle pattern, allowing the dynamic model to focus more on cloud-driven variability.\n\nThat made the model easier to estimate and improved short-term predictive performance."
+  },
+  {
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#what-the-model-appeared-to-learn-about-motion",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#what-the-model-appeared-to-learn-about-motion",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "What the Model Appeared to Learn About Motion",
+    "text": "What the Model Appeared to Learn About Motion\nThe posterior advection estimates suggested mostly westward transport early in the fitting window, weakening toward more neutral movement over time. North-south movement was weaker and more uncertain.\n\n\n\nPosterior estimates of the CSI advection parameters. These should be read as inferred transport proxies, not direct wind measurements.\n\n\nThis interpretability was useful. It gave the model a way to express not only expected radiation levels but also how cloud-shadow patterns appeared to move.\nStill, this should not be overclaimed. These parameters were inferred from irradiance fields. They were not validated against measured wind vectors."
+  },
+  {
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#the-computational-problem-was-real",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#the-computational-problem-was-real",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "The Computational Problem Was Real",
+    "text": "The Computational Problem Was Real\nThe hard part was not only the model. It was inference.\nThe latent field had 21,824 spatial cells per time step. Exact Bayesian smoothing over that many locations is not practical with standard state-space methods.\nI used an approximate Bayesian inference pipeline rather than exact smoothing. The key idea was to update a large ensemble of possible spatial fields, then sample uncertain model parameters around those field estimates. This made the problem computationally feasible, though not yet real-time.\nThe final pipeline used an ensemble size of 100 and 2,000 Gibbs-EnKS iterations, with 1,000 discarded as burn-in and every second draw retained. On modest CPU hardware, the full run took about 3-4 hours.\nThat means the model was not a real-time operational system. A more accurate description is quasi-operational prototype. It showed that high-dimensional Bayesian inference was feasible on realistic spatial fields, but further engineering would be needed for production deployment."
+  },
+  {
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#what-i-would-do-differently-next",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#what-i-would-do-differently-next",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "What I Would Do Differently Next",
+    "text": "What I Would Do Differently Next\nThe project answered a narrow question, but it also exposed the next set of problems.\nFirst, I would test more days, seasons, and cloud regimes. One day over Mindanao is not enough to establish general performance.\nSecond, I would add ground-station validation. The Himawari-9 product is a satellite retrieval, not ground truth.\nThird, I would relax some of the model assumptions. The model used linear dynamics, isotropic diffusion, fixed/tuned observation and state-innovation variances, and immediate-neighbor spatial dependence. Those choices helped make inference tractable, but they are simplifications.\nFourth, I would add external meteorological information. Cloud-motion vectors, numerical weather prediction outputs, aerosol information, or explicit solar-elevation dynamics could improve longer-horizon forecasts.\nFinally, I would work on faster inference. A 3-4 hour Bayesian pipeline is useful for research, but not enough for live 10-minute operational cycling."
+  },
+  {
+    "objectID": "writing/bayesian-spatiotemporal-solar-radiation/index.html#takeaway",
+    "href": "writing/bayesian-spatiotemporal-solar-radiation/index.html#takeaway",
+    "title": "Bayesian Spatiotemporal Forecasting: What I Learned Modeling Solar Radiation",
+    "section": "Takeaway",
+    "text": "Takeaway\nThis model did not solve solar forecasting.\nWhat it showed was more specific: for this Mindanao case study, a physics-informed Bayesian spatiotemporal model could produce spatially coherent, uncertainty-aware solar forecasts, and the clear-sky index made the problem noticeably easier than modeling raw solar radiation directly.\nThe most useful forecasting window was short, around the first 30 minutes. Beyond that, cloud dynamics became harder to track with the model’s assumptions.\nAs a modeling project, the value was not only the forecast itself but the workflow: transform the target, encode physical structure, quantify uncertainty, and be explicit about where the model stops being reliable.\nFor me, the main lesson was methodological:\n\nIn environmental forecasting, the preprocessing step, the physical structure of the model, and the uncertainty output are not separate details. They determine whether the forecast is useful.\n\nThe implementation is available in the AD-GEnKS Adaptive MCMC repository."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Scientist & Statistician",
     "section": "",
-    "text": "Full project writeups and portfolio entries."
+    "text": "Data Scientist & Statistician\n\n\n\nI build analytics systems, statistical models, dashboards, and research workflows for teams that need clarity from complex data. My work spans computer vision analytics, market segmentation, predictive modeling, statistical validation, and data storytelling.\n\nView Resume See Projects\n\n\n\n\n\n\n\nCurrently\n\nData Scientist at meldCX\nAnalytics for computer vision products across retail, QSR, and banking use cases.\nQuantitative Researcher\nResearching quantitative and algorithmic trading strategies for crypto markets.\n\n\n\n\n\nMS Statistics\nBayesian spatiotemporal modeling\n\n\nCo-founder\nStat IQ research consulting\n\n\nQuant Research\nAlgorithmic crypto trading\n\n\nBuilder\nPython, R, SQL, dashboards\n\n\n\n\n\n\n\n\n\nTransform raw detection events into client-facing metrics, KPI logic, dashboards, and insight narratives.\n\n\n\n\n\n\nDesign rigorous methods for forecasting, segmentation, validation, experiments, and research-grade inference.\n\n\n\n\n\n\nBuild interactive reporting workflows that connect technical analysis to operational and strategic decisions.\n\n\n\n\n\n\nHelp teams shape research questions, sampling plans, survey designs, statistical tests, and stakeholder-ready reports.\n\n\n\n\n\n\n\n\n\nProject\n\n\n\nImplemented adaptive MCMC workflows for Bayesian dynamic spatiotemporal modeling, supporting probabilistic forecasting of solar radiation fields.\n\nR Bayesian Modeling MCMC Spatiotemporal Forecasting\n\n\n\n\n\nResearch\n\n\n\nDeveloped deep learning sentiment models for Philippine vaccine discourse using scraped and labeled Twitter and Reddit data.\n\nLSTM CNN Word2Vec Label Studio\n\n\n\n\n\n\n\n\n\n\nA curated collection of visual storytelling work across income inequality, vaccination rollout, climate patterns, voter demographics, and exploratory statistical graphics.\nView Full Portfolio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI work best when the question is messy, the data is imperfect, and the output still needs to be useful for real decisions.\n\n\n\nYou have messy data\nI design reliable metrics, clean analytical workflows, and validation checks.\n\n\nYou need a model\nI build forecasting, segmentation, and predictive workflows with defensible evaluation.\n\n\nYou need stakeholder buy-in\nI turn findings into dashboards, visual narratives, and decision-ready reports.\n\n\nYou need research rigor\nI structure hypotheses, sampling plans, statistical tests, and validation studies.\n\n\n\n\n\n\n\nIf you need a model, dashboard, research design, or a clearer way to communicate findings, reach out.\n\n\nEmail Me LinkedIn GitHub"
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Data Scientist & Statistician",
+    "section": "",
+    "text": "Transform raw detection events into client-facing metrics, KPI logic, dashboards, and insight narratives.\n\n\n\n\n\n\nDesign rigorous methods for forecasting, segmentation, validation, experiments, and research-grade inference.\n\n\n\n\n\n\nBuild interactive reporting workflows that connect technical analysis to operational and strategic decisions.\n\n\n\n\n\n\nHelp teams shape research questions, sampling plans, survey designs, statistical tests, and stakeholder-ready reports."
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Data Scientist & Statistician",
+    "section": "",
+    "text": "Project\n\n\n\nImplemented adaptive MCMC workflows for Bayesian dynamic spatiotemporal modeling, supporting probabilistic forecasting of solar radiation fields.\n\nR Bayesian Modeling MCMC Spatiotemporal Forecasting\n\n\n\n\n\nResearch\n\n\n\nDeveloped deep learning sentiment models for Philippine vaccine discourse using scraped and labeled Twitter and Reddit data.\n\nLSTM CNN Word2Vec Label Studio\n\n\n\n\n\n\n\n\n\n\nA curated collection of visual storytelling work across income inequality, vaccination rollout, climate patterns, voter demographics, and exploratory statistical graphics.\nView Full Portfolio"
+  },
+  {
+    "objectID": "index.html#how-i-can-help",
+    "href": "index.html#how-i-can-help",
+    "title": "Data Scientist & Statistician",
+    "section": "",
+    "text": "I work best when the question is messy, the data is imperfect, and the output still needs to be useful for real decisions.\n\n\n\nYou have messy data\nI design reliable metrics, clean analytical workflows, and validation checks.\n\n\nYou need a model\nI build forecasting, segmentation, and predictive workflows with defensible evaluation.\n\n\nYou need stakeholder buy-in\nI turn findings into dashboards, visual narratives, and decision-ready reports.\n\n\nYou need research rigor\nI structure hypotheses, sampling plans, statistical tests, and validation studies."
+  },
+  {
+    "objectID": "index.html#working-on-a-data-problem",
+    "href": "index.html#working-on-a-data-problem",
+    "title": "Data Scientist & Statistician",
+    "section": "",
+    "text": "If you need a model, dashboard, research design, or a clearer way to communicate findings, reach out."
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Field Notes\n\n\n\nShort essays and technical walkthroughs on Bayesian modeling, forecasting, visualization, research design, and quantitative systems. The goal is to make statistical thinking useful without hiding the assumptions.\n\n\n\n\n\nLatest Essay\n\n\n\nLessons from building a Bayesian dynamic spatiotemporal model for short-term solar radiation forecasting over Mindanao.\n\nBayesian modeling Spatiotemporal statistics Solar forecasting\n\nRead the essay\n\n\n\n\nuncertainty\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nforecast horizon\n\n\n\n\n\n\nPriors, likelihoods, posterior predictive checks, and practical uncertainty communication.\n\n\n\nStudy design, validation, measurement, and translating statistical results into decisions.\n\n\n\nCharts as analytical tools: structure, comparison, uncertainty, and visual storytelling.\n\n\n\n\n\nAll writing entries, newest first."
+  },
+  {
+    "objectID": "writing.html#bayesian-spatiotemporal-forecasting-what-i-learned-modeling-solar-radiation",
+    "href": "writing.html#bayesian-spatiotemporal-forecasting-what-i-learned-modeling-solar-radiation",
+    "title": "Writing",
+    "section": "",
+    "text": "Lessons from building a Bayesian dynamic spatiotemporal model for short-term solar radiation forecasting over Mindanao.\n\nBayesian modeling Spatiotemporal statistics Solar forecasting\n\nRead the essay"
+  },
+  {
+    "objectID": "writing.html#essay-index",
+    "href": "writing.html#essay-index",
+    "title": "Writing",
+    "section": "",
+    "text": "All writing entries, newest first."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   }
 ]

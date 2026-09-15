@@ -1,14 +1,15 @@
 [
   {
-    "listing": "/writing.html",
-    "items": [
-      "/writing/forecasting-uncertainty/index.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/projects/data-visualizations/index.html"
+    ]
+  },
+  {
+    "listing": "/writing.html",
+    "items": [
+      "/writing/bayesian-spatiotemporal-solar-radiation/index.html",
+      "/writing/forecasting-uncertainty/index.html"
     ]
   }
 ]
