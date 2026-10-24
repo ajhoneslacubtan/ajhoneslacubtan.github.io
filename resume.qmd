@@ -34,7 +34,7 @@ Data Scientist and Statistician with experience delivering analytics solutions a
 
 ::: {.resume-entry}
 #### Data Scientist
-**meldCX Philippines Inc. (Cagayan de Oro City, Philippines)** | *July 2025 - Present*
+**meldCX Philippines Inc. (Cagayan de Oro City, Philippines)** | *July 2025 - October 2026*
 
 - Delivered actionable insights for retail, QSR, and banking clients using analytics from computer vision-based products and solutions.
 - Defined client-facing metrics and designed dashboards aligned with business objectives, operational priorities, and reporting needs.

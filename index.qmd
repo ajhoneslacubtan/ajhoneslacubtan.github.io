@@ -29,10 +29,10 @@ I build analytics systems, statistical models, dashboards, and research workflow
 
 ::: {.hero-card-body}
 ::: {.status-pill}
-Currently
+Experience
 :::
 
-**Data Scientist at meldCX**  
+**Data Scientist at meldCX** | *July 2025 – October 2026*<br>
 Analytics for computer vision products across retail, QSR, and banking use cases.
 
 **Quantitative Researcher**  
